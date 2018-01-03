@@ -1,0 +1,25 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "advguisample.pbl" "";
+@end;
+@begin Objects 
+ "advguisample.sra" "advguisample.pbl";
+ "p_advguisample_exe.srj" "advguisample.pbl";
+ "m_frame.srm" "advguisample.pbl";
+ "m_main.srm" "advguisample.pbl";
+ "u_cst_abouttest.sru" "advguisample.pbl";
+ "u_cst_buttonlistbartest.sru" "advguisample.pbl";
+ "u_cst_groupboxtest.sru" "advguisample.pbl";
+ "u_cst_mle.sru" "advguisample.pbl";
+ "u_cst_outlookshortcutbartest.sru" "advguisample.pbl";
+ "u_cst_picturetest.sru" "advguisample.pbl";
+ "u_cst_statictexttest.sru" "advguisample.pbl";
+ "u_cst_tabcontroltest.sru" "advguisample.pbl";
+ "u_cst_toolbartest.sru" "advguisample.pbl";
+ "u_cst_xplistbartest.sru" "advguisample.pbl";
+ "w_about.srw" "advguisample.pbl";
+ "w_frame.srw" "advguisample.pbl";
+ "w_main2.srw" "advguisample.pbl";
+ "w_sheet.srw" "advguisample.pbl";
+ "w_splash.srw" "advguisample.pbl";
+@end;

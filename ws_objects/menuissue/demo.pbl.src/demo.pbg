@@ -1,0 +1,15 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "demo.pbl" "";
+@end;
+@begin Objects 
+ "a_demo.sra" "demo.pbl";
+ "d_department_lookup.srd" "demo.pbl";
+ "d_employee_search.srd" "demo.pbl";
+ "pj_test.srj" "demo.pbl";
+ "mu_demo.srm" "demo.pbl";
+ "mu_demo2.srm" "demo.pbl";
+ "w_demo.srw" "demo.pbl";
+ "w_demo2.srw" "demo.pbl";
+ "w_menu_test.srw" "demo.pbl";
+@end;

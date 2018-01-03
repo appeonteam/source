@@ -1,0 +1,13 @@
+Save Format v3.0(19990112)
+@begin Targets
+ 0 "dw2xls_test.pbt";
+ 1 "dw2xls_For_pb115\\dw2xls.pbt";
+ 2 "ftpclient\\ftpclient10.pbt";
+ 3 "wstest_orig\\testappeon.pbt";
+ 4 "PBGUIControls100\\advguisample.pbt";
+ 5 "oletest125.pbt";
+ 6 "InkDemo\\Ink_Demo.pbt";
+ 7 "Simulate\\simulate.pbt";
+@end;
+DefaultTarget "Simulate\\simulate.pbt";
+DefaultRemoteTarget "Simulate\\simulate.pbt";

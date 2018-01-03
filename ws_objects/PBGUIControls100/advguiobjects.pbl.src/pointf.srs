@@ -1,0 +1,6 @@
+﻿$PBExportHeader$pointf.srs
+global type pointf from structure
+	double		px
+	double		py
+end type
+

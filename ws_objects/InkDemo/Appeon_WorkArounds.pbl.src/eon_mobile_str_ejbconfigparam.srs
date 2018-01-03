@@ -1,0 +1,11 @@
+﻿$PBExportHeader$eon_mobile_str_ejbconfigparam.srs
+global type eon_mobile_str_ejbconfigparam from structure
+	string		s_serverurl
+	string		s_appname
+	string		s_contextinitalcontextfactroy
+	string		s_contextproviderurl
+	string		s_username
+	string		s_password
+	string		s_jndi
+end type
+

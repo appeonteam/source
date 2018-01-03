@@ -1,0 +1,8 @@
+﻿$PBExportHeader$rectf.srs
+global type rectf from structure
+	real		x
+	real		y
+	real		width
+	real		height
+end type
+

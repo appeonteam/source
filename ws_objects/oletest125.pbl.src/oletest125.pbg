@@ -1,0 +1,11 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "oletest125.pbl" "";
+@end;
+@begin Objects 
+ "oletest125.sra" "oletest125.pbl";
+ "d_signatures.srd" "oletest125.pbl";
+ "d_test_noblob.srd" "oletest125.pbl";
+ "d_test_with_blob.srd" "oletest125.pbl";
+ "w_testfailedblob.srw" "oletest125.pbl";
+@end;

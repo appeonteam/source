@@ -1,0 +1,15 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "genapp.pbl" "";
+@end;
+@begin Objects 
+ "genapp.sra" "genapp.pbl";
+ "gf_genapp_configure_sync.srf" "genapp.pbl";
+ "gf_genapp_sync.srf" "genapp.pbl";
+ "m_genapp_main.srm" "genapp.pbl";
+ "nvo_genapp_mlsync.sru" "genapp.pbl";
+ "w_genapp_about.srw" "genapp.pbl";
+ "w_genapp_main.srw" "genapp.pbl";
+ "w_genapp_sync_options.srw" "genapp.pbl";
+ "w_genapp_syncprogress.srw" "genapp.pbl";
+@end;

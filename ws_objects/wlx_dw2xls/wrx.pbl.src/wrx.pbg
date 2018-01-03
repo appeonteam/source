@@ -1,0 +1,33 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "wrx.pbl" "";
+@end;
+@begin Objects 
+ "dw_format_description.srd" "wrx.pbl";
+ "dw_format_name.srd" "wrx.pbl";
+ "f_dw_save_as_csv_standart.srf" "wrx.pbl";
+ "f_dw_save_as_dbf_standart.srf" "wrx.pbl";
+ "f_dw_save_as_html.srf" "wrx.pbl";
+ "f_dw_save_as_rtf.srf" "wrx.pbl";
+ "f_dw_save_as_txt_standart.srf" "wrx.pbl";
+ "f_dw_save_as_xls_html.srf" "wrx.pbl";
+ "f_dw_save_as_xls_ole.srf" "wrx.pbl";
+ "f_dw_save_as_xls_standart.srf" "wrx.pbl";
+ "f_open_file.srf" "wrx.pbl";
+ "f_start_unload_dw.srf" "wrx.pbl";
+ "cst_oleobject_xls.sru" "wrx.pbl";
+ "n_cst_dw_unload.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_html.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_html_app.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_rtf.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_rtf_app.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_xls_html.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_xls_html_app.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_xls_ole.sru" "wrx.pbl";
+ "n_cst_dw_unload_in_xls_ole_app.sru" "wrx.pbl";
+ "u_cst_progres_bar.sru" "wrx.pbl";
+ "u_cst_progres_bar1.sru" "wrx.pbl";
+ "w_calc_time.srw" "wrx.pbl";
+ "w_main_wrx.srw" "wrx.pbl";
+ "w_progres_bar.srw" "wrx.pbl";
+@end;

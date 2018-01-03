@@ -1,0 +1,16 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "simulate.pbl" "";
+@end;
+@begin Objects 
+ "simulate.sra" "simulate.pbl";
+ "m_frame.srm" "simulate.pbl";
+ "nv_app_manager.sru" "simulate.pbl";
+ "nv_ext_funcs.sru" "simulate.pbl";
+ "nv_ext_funcs_32.sru" "simulate.pbl";
+ "nv_ext_funcs_64.sru" "simulate.pbl";
+ "w_about.srw" "simulate.pbl";
+ "w_frame.srw" "simulate.pbl";
+ "w_sheet.srw" "simulate.pbl";
+ "w_spellcheck.srw" "simulate.pbl";
+@end;

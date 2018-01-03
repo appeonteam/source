@@ -1,0 +1,18 @@
+﻿$PBExportHeader$uf_bitor.srf
+global type uf_bitor from function_object
+end type
+
+forward prototypes
+global function unsignedlong uf_bitor (unsignedlong al_val1, unsignedlong al_val2)
+end prototypes
+
+global function unsignedlong uf_bitor (unsignedlong al_val1, unsignedlong al_val2);ULong ll_ret
+Integer li_i
+For li_i = 0 To 31
+	If Mod(Long(al_val1 / 2 ^ li_i), 2) + Mod(Long(al_val2 / 2 ^ li_i), 2) > 0 Then
+		ll_ret += 2 ^ li_i
+	End If
+Next
+Return ll_ret
+end function
+

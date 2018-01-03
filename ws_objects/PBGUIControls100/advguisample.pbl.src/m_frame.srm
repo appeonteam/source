@@ -1,0 +1,3288 @@
+﻿$PBExportHeader$m_frame.srm
+forward
+global type m_frame from menu
+end type
+type m_file from menu within m_frame
+end type
+type m_theme from menu within m_file
+end type
+type m_blue from menu within m_theme
+end type
+type m_olive from menu within m_theme
+end type
+type m_silver from menu within m_theme
+end type
+type m_classic from menu within m_theme
+end type
+type m_theme from menu within m_file
+m_blue m_blue
+m_olive m_olive
+m_silver m_silver
+m_classic m_classic
+end type
+type m_new0 from menu within m_file
+end type
+type m_sql from menu within m_new0
+end type
+type m_isql from menu within m_new0
+end type
+type m_graphicquery from menu within m_new0
+end type
+type m_new0 from menu within m_file
+m_sql m_sql
+m_isql m_isql
+m_graphicquery m_graphicquery
+end type
+type m_recentfiles from menu within m_file
+end type
+type m_empty from menu within m_recentfiles
+end type
+type m_file1 from menu within m_recentfiles
+end type
+type m_file2 from menu within m_recentfiles
+end type
+type m_file3 from menu within m_recentfiles
+end type
+type m_file4 from menu within m_recentfiles
+end type
+type m_file5 from menu within m_recentfiles
+end type
+type m_file6 from menu within m_recentfiles
+end type
+type m_file7 from menu within m_recentfiles
+end type
+type m_file8 from menu within m_recentfiles
+end type
+type m_file9 from menu within m_recentfiles
+end type
+type m_recentfiles from menu within m_file
+m_empty m_empty
+m_file1 m_file1
+m_file2 m_file2
+m_file3 m_file3
+m_file4 m_file4
+m_file5 m_file5
+m_file6 m_file6
+m_file7 m_file7
+m_file8 m_file8
+m_file9 m_file9
+end type
+type m_open from menu within m_file
+end type
+type m_- from menu within m_file
+end type
+type m_save from menu within m_file
+end type
+type m_saveas from menu within m_file
+end type
+type m_send from menu within m_file
+end type
+type m_-1 from menu within m_file
+end type
+type m_print from menu within m_file
+end type
+type m_printpreview from menu within m_file
+end type
+type m_printsetup from menu within m_file
+end type
+type m_pagesetup from menu within m_file
+end type
+type m_-13 from menu within m_file
+end type
+type m_-0 from menu within m_file
+end type
+type m_exit from menu within m_file
+end type
+type m_file from menu within m_frame
+m_theme m_theme
+m_new0 m_new0
+m_recentfiles m_recentfiles
+m_open m_open
+m_- m_-
+m_save m_save
+m_saveas m_saveas
+m_send m_send
+m_-1 m_-1
+m_print m_print
+m_printpreview m_printpreview
+m_printsetup m_printsetup
+m_pagesetup m_pagesetup
+m_-13 m_-13
+m_-0 m_-0
+m_exit m_exit
+end type
+type m_edit from menu within m_frame
+end type
+type m_paste from menu within m_edit
+end type
+type m_-3 from menu within m_edit
+end type
+type m_cut from menu within m_edit
+end type
+type m_copy from menu within m_edit
+end type
+type m_-7 from menu within m_edit
+end type
+type m_selectall from menu within m_edit
+end type
+type m_undo from menu within m_edit
+end type
+type m_redo from menu within m_edit
+end type
+type m_-8 from menu within m_edit
+end type
+type m_find from menu within m_edit
+end type
+type m_replace from menu within m_edit
+end type
+type m_replace0 from menu within m_edit
+end type
+type m_goto from menu within m_edit
+end type
+type m_-9 from menu within m_edit
+end type
+type m_commentselection from menu within m_edit
+end type
+type m_uncommentselection from menu within m_edit
+end type
+type m_-24 from menu within m_edit
+end type
+type m_columnselect from menu within m_edit
+end type
+type m_gotodefinition from menu within m_edit
+end type
+type m_googleit from menu within m_edit
+end type
+type m_codetemplates from menu within m_edit
+end type
+type m_viewtemplates from menu within m_codetemplates
+end type
+type m_createcodetemplatefromselectedtext from menu within m_codetemplates
+end type
+type m_codetemplates from menu within m_edit
+m_viewtemplates m_viewtemplates
+m_createcodetemplatefromselectedtext m_createcodetemplatefromselectedtext
+end type
+type m_-18 from menu within m_edit
+end type
+type m_createprocedure from menu within m_edit
+end type
+type m_select from menu within m_createprocedure
+end type
+type m_insert from menu within m_createprocedure
+end type
+type m_update from menu within m_createprocedure
+end type
+type m_delete from menu within m_createprocedure
+end type
+type m_createprocedure from menu within m_edit
+m_select m_select
+m_insert m_insert
+m_update m_update
+m_delete m_delete
+end type
+type m_tab from menu within m_edit
+end type
+type m_shifttab from menu within m_edit
+end type
+type m_escape from menu within m_edit
+end type
+type m_insert0 from menu within m_edit
+end type
+type m_newguid from menu within m_insert0
+end type
+type m_calculatedvalue from menu within m_insert0
+end type
+type m_todaysdate from menu within m_insert0
+end type
+type m_todaysdatatime from menu within m_insert0
+end type
+type m_currenttime from menu within m_insert0
+end type
+type m_null from menu within m_insert0
+end type
+type m_insert0 from menu within m_edit
+m_newguid m_newguid
+m_calculatedvalue m_calculatedvalue
+m_todaysdate m_todaysdate
+m_todaysdatatime m_todaysdatatime
+m_currenttime m_currenttime
+m_null m_null
+end type
+type m_navforward from menu within m_edit
+end type
+type m_navback from menu within m_edit
+end type
+type m_changecase from menu within m_edit
+end type
+type m_upper from menu within m_changecase
+end type
+type m_lower from menu within m_changecase
+end type
+type m_proper from menu within m_changecase
+end type
+type m_changecase from menu within m_edit
+m_upper m_upper
+m_lower m_lower
+m_proper m_proper
+end type
+type m_edit from menu within m_frame
+m_paste m_paste
+m_-3 m_-3
+m_cut m_cut
+m_copy m_copy
+m_-7 m_-7
+m_selectall m_selectall
+m_undo m_undo
+m_redo m_redo
+m_-8 m_-8
+m_find m_find
+m_replace m_replace
+m_replace0 m_replace0
+m_goto m_goto
+m_-9 m_-9
+m_commentselection m_commentselection
+m_uncommentselection m_uncommentselection
+m_-24 m_-24
+m_columnselect m_columnselect
+m_gotodefinition m_gotodefinition
+m_googleit m_googleit
+m_codetemplates m_codetemplates
+m_-18 m_-18
+m_createprocedure m_createprocedure
+m_tab m_tab
+m_shifttab m_shifttab
+m_escape m_escape
+m_insert0 m_insert0
+m_navforward m_navforward
+m_navback m_navback
+m_changecase m_changecase
+end type
+type m_view0 from menu within m_frame
+end type
+type m_folderexplorer from menu within m_view0
+end type
+type m_objectbrowser from menu within m_view0
+end type
+type m_-19 from menu within m_view0
+end type
+type m_gettingstarted from menu within m_view0
+end type
+type m_-15 from menu within m_view0
+end type
+type m_todolist from menu within m_view0
+end type
+type m_clipboard from menu within m_view0
+end type
+type m_view0 from menu within m_frame
+m_folderexplorer m_folderexplorer
+m_objectbrowser m_objectbrowser
+m_-19 m_-19
+m_gettingstarted m_gettingstarted
+m_-15 m_-15
+m_todolist m_todolist
+m_clipboard m_clipboard
+end type
+type m_actions from menu within m_frame
+end type
+type m_execute from menu within m_actions
+end type
+type m_execute5 from menu within m_actions
+end type
+type m_execute2 from menu within m_actions
+end type
+type m_execute3 from menu within m_actions
+end type
+type m_execute4 from menu within m_actions
+end type
+type m_-6 from menu within m_actions
+end type
+type m_connect from menu within m_actions
+end type
+type m_disconnect from menu within m_actions
+end type
+type m_-10 from menu within m_actions
+end type
+type m_registerdatasource from menu within m_actions
+end type
+type m_editdatasource from menu within m_actions
+end type
+type m_removedatasource from menu within m_actions
+end type
+type m_actions from menu within m_frame
+m_execute m_execute
+m_execute5 m_execute5
+m_execute2 m_execute2
+m_execute3 m_execute3
+m_execute4 m_execute4
+m_-6 m_-6
+m_connect m_connect
+m_disconnect m_disconnect
+m_-10 m_-10
+m_registerdatasource m_registerdatasource
+m_editdatasource m_editdatasource
+m_removedatasource m_removedatasource
+end type
+type m_browse from menu within m_frame
+end type
+type m_table from menu within m_browse
+end type
+type m_storedprocedures from menu within m_browse
+end type
+type m_trigger from menu within m_browse
+end type
+type m_view from menu within m_browse
+end type
+type m_functions from menu within m_browse
+end type
+type m_browse from menu within m_frame
+m_table m_table
+m_storedprocedures m_storedprocedures
+m_trigger m_trigger
+m_view m_view
+m_functions m_functions
+end type
+type m_tools from menu within m_frame
+end type
+type m_odbcadministrator from menu within m_tools
+end type
+type m_visualdifference from menu within m_tools
+end type
+type m_autoformat from menu within m_tools
+end type
+type m_databasesearch from menu within m_tools
+end type
+type m_datatransfer from menu within m_tools
+end type
+type m_-12 from menu within m_tools
+end type
+type m_namespaces from menu within m_tools
+end type
+type m_codetemplates0 from menu within m_tools
+end type
+type m_0 from menu within m_tools
+end type
+type m_clearintellisensecache from menu within m_tools
+end type
+type m_-11 from menu within m_tools
+end type
+type m_options from menu within m_tools
+end type
+type m_-16 from menu within m_tools
+end type
+type m_add-ins from menu within m_tools
+end type
+type m_addin1 from menu within m_add-ins
+end type
+type m_addin2 from menu within m_add-ins
+end type
+type m_addin3 from menu within m_add-ins
+end type
+type m_addin4 from menu within m_add-ins
+end type
+type m_addin5 from menu within m_add-ins
+end type
+type m_addin6 from menu within m_add-ins
+end type
+type m_addin7 from menu within m_add-ins
+end type
+type m_addin8 from menu within m_add-ins
+end type
+type m_addin9 from menu within m_add-ins
+end type
+type m_addin10 from menu within m_add-ins
+end type
+type m_addin11 from menu within m_add-ins
+end type
+type m_addin12 from menu within m_add-ins
+end type
+type m_addin13 from menu within m_add-ins
+end type
+type m_addin14 from menu within m_add-ins
+end type
+type m_addin15 from menu within m_add-ins
+end type
+type m_-17 from menu within m_add-ins
+end type
+type m_addadd-in from menu within m_add-ins
+end type
+type m_removeadd-in from menu within m_add-ins
+end type
+type m_add-ins from menu within m_tools
+m_addin1 m_addin1
+m_addin2 m_addin2
+m_addin3 m_addin3
+m_addin4 m_addin4
+m_addin5 m_addin5
+m_addin6 m_addin6
+m_addin7 m_addin7
+m_addin8 m_addin8
+m_addin9 m_addin9
+m_addin10 m_addin10
+m_addin11 m_addin11
+m_addin12 m_addin12
+m_addin13 m_addin13
+m_addin14 m_addin14
+m_addin15 m_addin15
+m_-17 m_-17
+m_addadd-in m_addadd-in
+m_removeadd-in m_removeadd-in
+end type
+type m_tools from menu within m_frame
+m_odbcadministrator m_odbcadministrator
+m_visualdifference m_visualdifference
+m_autoformat m_autoformat
+m_databasesearch m_databasesearch
+m_datatransfer m_datatransfer
+m_-12 m_-12
+m_namespaces m_namespaces
+m_codetemplates0 m_codetemplates0
+m_0 m_0
+m_clearintellisensecache m_clearintellisensecache
+m_-11 m_-11
+m_options m_options
+m_-16 m_-16
+m_add-ins m_add-ins
+end type
+type m_window from menu within m_frame
+end type
+type m_closeall from menu within m_window
+end type
+type m_window from menu within m_frame
+m_closeall m_closeall
+end type
+type m_help from menu within m_frame
+end type
+type m_contents from menu within m_help
+end type
+type m_-14 from menu within m_help
+end type
+type m_tipoftheday from menu within m_help
+end type
+type m_-5 from menu within m_help
+end type
+type m_onlinesupport from menu within m_help
+end type
+type m_howtovideos from menu within m_help
+end type
+type m_featuresheet from menu within m_help
+end type
+type m_-4 from menu within m_help
+end type
+type m_registerproduct from menu within m_help
+end type
+type m_about from menu within m_help
+end type
+type m_help from menu within m_frame
+m_contents m_contents
+m_-14 m_-14
+m_tipoftheday m_tipoftheday
+m_-5 m_-5
+m_onlinesupport m_onlinesupport
+m_howtovideos m_howtovideos
+m_featuresheet m_featuresheet
+m_-4 m_-4
+m_registerproduct m_registerproduct
+m_about m_about
+end type
+global type m_frame from menu
+m_file m_file
+m_edit m_edit
+m_view0 m_view0
+m_actions m_actions
+m_browse m_browse
+m_tools m_tools
+m_window m_window
+m_help m_help
+end type
+end forward
+
+global type m_frame from menu
+m_file m_file
+m_edit m_edit
+m_view0 m_view0
+m_actions m_actions
+m_browse m_browse
+m_tools m_tools
+m_window m_window
+m_help m_help
+end type
+global m_frame m_frame
+
+type variables
+String is_addinwindow[]
+
+end variables
+
+forward prototypes
+
+end prototypes
+
+on m_frame.create
+m_frame=this
+call super::create
+this.m_file=create m_file
+this.m_edit=create m_edit
+this.m_view0=create m_view0
+this.m_actions=create m_actions
+this.m_browse=create m_browse
+this.m_tools=create m_tools
+this.m_window=create m_window
+this.m_help=create m_help
+this.Item[UpperBound(this.Item)+1]=this.m_file
+this.Item[UpperBound(this.Item)+1]=this.m_edit
+this.Item[UpperBound(this.Item)+1]=this.m_view0
+this.Item[UpperBound(this.Item)+1]=this.m_actions
+this.Item[UpperBound(this.Item)+1]=this.m_browse
+this.Item[UpperBound(this.Item)+1]=this.m_tools
+this.Item[UpperBound(this.Item)+1]=this.m_window
+this.Item[UpperBound(this.Item)+1]=this.m_help
+end on
+
+on m_frame.destroy
+call super::destroy
+destroy(this.m_file)
+destroy(this.m_edit)
+destroy(this.m_view0)
+destroy(this.m_actions)
+destroy(this.m_browse)
+destroy(this.m_tools)
+destroy(this.m_window)
+destroy(this.m_help)
+end on
+
+type m_file from menu within m_frame
+m_theme m_theme
+m_new0 m_new0
+m_recentfiles m_recentfiles
+m_open m_open
+m_- m_-
+m_save m_save
+m_saveas m_saveas
+m_send m_send
+m_-1 m_-1
+m_print m_print
+m_printpreview m_printpreview
+m_printsetup m_printsetup
+m_pagesetup m_pagesetup
+m_-13 m_-13
+m_-0 m_-0
+m_exit m_exit
+end type
+
+on m_file.create
+call super::create
+this.text = "&Home"
+this.toolbaritemvisible = false
+this.m_theme=create m_theme
+this.m_new0=create m_new0
+this.m_recentfiles=create m_recentfiles
+this.m_open=create m_open
+this.m_-=create m_-
+this.m_save=create m_save
+this.m_saveas=create m_saveas
+this.m_send=create m_send
+this.m_-1=create m_-1
+this.m_print=create m_print
+this.m_printpreview=create m_printpreview
+this.m_printsetup=create m_printsetup
+this.m_pagesetup=create m_pagesetup
+this.m_-13=create m_-13
+this.m_-0=create m_-0
+this.m_exit=create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_theme
+this.Item[UpperBound(this.Item)+1]=this.m_new0
+this.Item[UpperBound(this.Item)+1]=this.m_recentfiles
+this.Item[UpperBound(this.Item)+1]=this.m_open
+this.Item[UpperBound(this.Item)+1]=this.m_-
+this.Item[UpperBound(this.Item)+1]=this.m_save
+this.Item[UpperBound(this.Item)+1]=this.m_saveas
+this.Item[UpperBound(this.Item)+1]=this.m_send
+this.Item[UpperBound(this.Item)+1]=this.m_-1
+this.Item[UpperBound(this.Item)+1]=this.m_print
+this.Item[UpperBound(this.Item)+1]=this.m_printpreview
+this.Item[UpperBound(this.Item)+1]=this.m_printsetup
+this.Item[UpperBound(this.Item)+1]=this.m_pagesetup
+this.Item[UpperBound(this.Item)+1]=this.m_-13
+this.Item[UpperBound(this.Item)+1]=this.m_-0
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_theme)
+destroy(this.m_new0)
+destroy(this.m_recentfiles)
+destroy(this.m_open)
+destroy(this.m_-)
+destroy(this.m_save)
+destroy(this.m_saveas)
+destroy(this.m_send)
+destroy(this.m_-1)
+destroy(this.m_print)
+destroy(this.m_printpreview)
+destroy(this.m_printsetup)
+destroy(this.m_pagesetup)
+destroy(this.m_-13)
+destroy(this.m_-0)
+destroy(this.m_exit)
+end on
+
+type m_theme from menu within m_file
+m_blue m_blue
+m_olive m_olive
+m_silver m_silver
+m_classic m_classic
+end type
+
+on m_theme.create
+call super::create
+this.tag = "group:Theme;size:Large"
+this.text = "Theme"
+this.toolbaritemname = "blue.bmp"
+this.m_blue=create m_blue
+this.m_olive=create m_olive
+this.m_silver=create m_silver
+this.m_classic=create m_classic
+this.Item[UpperBound(this.Item)+1]=this.m_blue
+this.Item[UpperBound(this.Item)+1]=this.m_olive
+this.Item[UpperBound(this.Item)+1]=this.m_silver
+this.Item[UpperBound(this.Item)+1]=this.m_classic
+end on
+
+on m_theme.destroy
+call super::destroy
+destroy(this.m_blue)
+destroy(this.m_olive)
+destroy(this.m_silver)
+destroy(this.m_classic)
+end on
+
+type m_blue from menu within m_theme
+end type
+
+on m_blue.create
+call super::create
+this.text = "Blue"
+this.toolbaritemname = "blue.bmp"
+end on
+
+on m_blue.destroy
+call super::destroy
+end on
+
+event clicked;w_main2.of_ChangeTheme(THIS.Text)
+end event
+
+type m_olive from menu within m_theme
+end type
+
+on m_olive.create
+call super::create
+this.text = "Olive"
+this.toolbaritemname = "olive.bmp"
+end on
+
+on m_olive.destroy
+call super::destroy
+end on
+
+event clicked;w_main2.of_ChangeTheme(THIS.Text)
+end event
+
+type m_silver from menu within m_theme
+end type
+
+on m_silver.create
+call super::create
+this.text = "Silver"
+this.toolbaritemname = "silver.bmp"
+end on
+
+on m_silver.destroy
+call super::destroy
+end on
+
+event clicked;w_main2.of_ChangeTheme(THIS.Text)
+end event
+
+type m_classic from menu within m_theme
+end type
+
+on m_classic.create
+call super::create
+this.text = "Classic"
+this.toolbaritemname = "classic.bmp"
+end on
+
+on m_classic.destroy
+call super::destroy
+end on
+
+event clicked;w_main2.of_ChangeTheme(THIS.Text)
+end event
+
+type m_new0 from menu within m_file
+m_sql m_sql
+m_isql m_isql
+m_graphicquery m_graphicquery
+end type
+
+on m_new0.create
+call super::create
+this.tag = "size:large;group:File"
+this.text = "Ne&w Query"
+this.toolbaritemvisible = false
+this.toolbaritemname = "new.gif"
+this.m_sql=create m_sql
+this.m_isql=create m_isql
+this.m_graphicquery=create m_graphicquery
+this.Item[UpperBound(this.Item)+1]=this.m_sql
+this.Item[UpperBound(this.Item)+1]=this.m_isql
+this.Item[UpperBound(this.Item)+1]=this.m_graphicquery
+end on
+
+on m_new0.destroy
+call super::destroy
+destroy(this.m_sql)
+destroy(this.m_isql)
+destroy(this.m_graphicquery)
+end on
+
+type m_sql from menu within m_new0
+end type
+
+on m_sql.create
+call super::create
+this.text = "SQL Query~tCtrl+N"
+this.shortcut = 334
+this.toolbaritemvisible = false
+this.toolbaritemname = "sql!"
+this.toolbaritemtext = "SQL"
+this.toolbaritemorder = 1
+end on
+
+on m_sql.destroy
+call super::destroy
+end on
+
+type m_isql from menu within m_new0
+end type
+
+on m_isql.create
+call super::create
+this.text = "Criteria Query~tF11"
+this.shortcut = 122
+this.toolbaritemvisible = false
+this.toolbaritemname = "table!"
+this.toolbaritemtext = "ISQL"
+this.toolbaritemorder = 2
+end on
+
+on m_isql.destroy
+call super::destroy
+end on
+
+type m_graphicquery from menu within m_new0
+end type
+
+on m_graphicquery.create
+call super::create
+this.text = "Graphic Query~tF12"
+this.shortcut = 123
+this.toolbaritemvisible = false
+this.toolbaritemname = "join!"
+end on
+
+on m_graphicquery.destroy
+call super::destroy
+end on
+
+type m_recentfiles from menu within m_file
+m_empty m_empty
+m_file1 m_file1
+m_file2 m_file2
+m_file3 m_file3
+m_file4 m_file4
+m_file5 m_file5
+m_file6 m_file6
+m_file7 m_file7
+m_file8 m_file8
+m_file9 m_file9
+end type
+
+on m_recentfiles.create
+call super::create
+this.tag = "group:File;size:Large"
+this.text = "Recent Files"
+this.enabled = false
+this.toolbaritemvisible = false
+this.toolbaritemname = "custom071!"
+this.m_empty=create m_empty
+this.m_file1=create m_file1
+this.m_file2=create m_file2
+this.m_file3=create m_file3
+this.m_file4=create m_file4
+this.m_file5=create m_file5
+this.m_file6=create m_file6
+this.m_file7=create m_file7
+this.m_file8=create m_file8
+this.m_file9=create m_file9
+this.Item[UpperBound(this.Item)+1]=this.m_empty
+this.Item[UpperBound(this.Item)+1]=this.m_file1
+this.Item[UpperBound(this.Item)+1]=this.m_file2
+this.Item[UpperBound(this.Item)+1]=this.m_file3
+this.Item[UpperBound(this.Item)+1]=this.m_file4
+this.Item[UpperBound(this.Item)+1]=this.m_file5
+this.Item[UpperBound(this.Item)+1]=this.m_file6
+this.Item[UpperBound(this.Item)+1]=this.m_file7
+this.Item[UpperBound(this.Item)+1]=this.m_file8
+this.Item[UpperBound(this.Item)+1]=this.m_file9
+end on
+
+on m_recentfiles.destroy
+call super::destroy
+destroy(this.m_empty)
+destroy(this.m_file1)
+destroy(this.m_file2)
+destroy(this.m_file3)
+destroy(this.m_file4)
+destroy(this.m_file5)
+destroy(this.m_file6)
+destroy(this.m_file7)
+destroy(this.m_file8)
+destroy(this.m_file9)
+end on
+
+type m_empty from menu within m_recentfiles
+end type
+
+on m_empty.create
+call super::create
+this.text = "<empty>"
+this.enabled = false
+this.toolbaritemvisible = false
+end on
+
+on m_empty.destroy
+call super::destroy
+end on
+
+type m_file1 from menu within m_recentfiles
+end type
+
+on m_file1.create
+call super::create
+this.visible = false
+this.text = "file1"
+this.toolbaritemvisible = false
+end on
+
+on m_file1.destroy
+call super::destroy
+end on
+
+type m_file2 from menu within m_recentfiles
+end type
+
+on m_file2.create
+call super::create
+this.visible = false
+this.text = "file2"
+this.toolbaritemvisible = false
+end on
+
+on m_file2.destroy
+call super::destroy
+end on
+
+type m_file3 from menu within m_recentfiles
+end type
+
+on m_file3.create
+call super::create
+this.visible = false
+this.text = "file3"
+this.toolbaritemvisible = false
+end on
+
+on m_file3.destroy
+call super::destroy
+end on
+
+type m_file4 from menu within m_recentfiles
+end type
+
+on m_file4.create
+call super::create
+this.visible = false
+this.text = "file4"
+this.toolbaritemvisible = false
+end on
+
+on m_file4.destroy
+call super::destroy
+end on
+
+type m_file5 from menu within m_recentfiles
+end type
+
+on m_file5.create
+call super::create
+this.visible = false
+this.text = "file5"
+this.toolbaritemvisible = false
+end on
+
+on m_file5.destroy
+call super::destroy
+end on
+
+type m_file6 from menu within m_recentfiles
+end type
+
+on m_file6.create
+call super::create
+this.visible = false
+this.text = "file6"
+this.toolbaritemvisible = false
+end on
+
+on m_file6.destroy
+call super::destroy
+end on
+
+type m_file7 from menu within m_recentfiles
+end type
+
+on m_file7.create
+call super::create
+this.visible = false
+this.text = "file7"
+this.toolbaritemvisible = false
+end on
+
+on m_file7.destroy
+call super::destroy
+end on
+
+type m_file8 from menu within m_recentfiles
+end type
+
+on m_file8.create
+call super::create
+this.visible = false
+this.text = "file8"
+this.toolbaritemvisible = false
+end on
+
+on m_file8.destroy
+call super::destroy
+end on
+
+type m_file9 from menu within m_recentfiles
+end type
+
+on m_file9.create
+call super::create
+this.visible = false
+this.text = "file9"
+this.toolbaritemvisible = false
+end on
+
+on m_file9.destroy
+call super::destroy
+end on
+
+type m_open from menu within m_file
+end type
+
+on m_open.create
+call super::create
+this.tag = "group:File;size:large;quickaccess:true"
+this.text = "&Open~tCtrl+O"
+this.shortcut = 335
+this.microhelp = "Opens a new file from your file system"
+this.toolbaritemvisible = false
+this.toolbaritemname = "open!"
+end on
+
+on m_open.destroy
+call super::destroy
+end on
+
+type m_- from menu within m_file
+end type
+
+on m_-.create
+call super::create
+this.tag = "quickaccess:true"
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-.destroy
+call super::destroy
+end on
+
+type m_save from menu within m_file
+end type
+
+on m_save.create
+call super::create
+this.tag = "group:File;quickaccess:true"
+this.text = "&Save~tCtrl+S"
+this.shortcut = 339
+this.microhelp = "Saves file to your file system"
+this.toolbaritemvisible = false
+this.toolbaritemname = "save!"
+this.toolbaritemtext = "Save"
+this.toolbaritemorder = 3
+this.toolbaritemspace = 2
+end on
+
+on m_save.destroy
+call super::destroy
+end on
+
+type m_saveas from menu within m_file
+end type
+
+on m_saveas.create
+call super::create
+this.tag = "group:File;quickaccess:true"
+this.text = "Save &As"
+this.toolbaritemvisible = false
+this.toolbaritemname = "saveas!"
+this.toolbaritemtext = "Save As"
+this.toolbaritemorder = 3
+end on
+
+on m_saveas.destroy
+call super::destroy
+end on
+
+type m_send from menu within m_file
+end type
+
+on m_send.create
+call super::create
+this.tag = "group:File;"
+this.text = "Send"
+this.toolbaritemvisible = false
+end on
+
+on m_send.destroy
+call super::destroy
+end on
+
+type m_-1 from menu within m_file
+end type
+
+on m_-1.create
+call super::create
+this.tag = "quickaccess:true"
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-1.destroy
+call super::destroy
+end on
+
+type m_print from menu within m_file
+end type
+
+on m_print.create
+call super::create
+this.tag = "group:Print;size:large;quickaccess:true"
+this.text = "&Print~tCtrl+P"
+this.shortcut = 336
+this.toolbaritemvisible = false
+this.toolbaritemname = "print!"
+this.toolbaritemtext = "Print"
+this.toolbaritemorder = 4
+this.toolbaritemspace = 2
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+type m_printpreview from menu within m_file
+end type
+
+on m_printpreview.create
+call super::create
+this.tag = "group:Print;quickaccess:true"
+this.text = "Print Pre&view"
+this.toolbaritemvisible = false
+this.toolbaritemname = "preview!"
+this.toolbaritemtext = "Print Preview"
+this.toolbaritemorder = 5
+end on
+
+on m_printpreview.destroy
+call super::destroy
+end on
+
+type m_printsetup from menu within m_file
+end type
+
+on m_printsetup.create
+call super::create
+this.tag = "group:Print"
+this.text = "Print Setup"
+this.toolbaritemvisible = false
+this.toolbaritemname = "pagesetup.gif"
+this.toolbaritemtext = "Print Setup"
+end on
+
+on m_printsetup.destroy
+call super::destroy
+end on
+
+type m_pagesetup from menu within m_file
+end type
+
+on m_pagesetup.create
+call super::create
+this.tag = "group:Print"
+this.text = "Page Set&up"
+this.toolbaritemvisible = false
+this.toolbaritemname = "pagesetup.gif"
+end on
+
+on m_pagesetup.destroy
+call super::destroy
+end on
+
+type m_-13 from menu within m_file
+end type
+
+on m_-13.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-13.destroy
+call super::destroy
+end on
+
+type m_-0 from menu within m_file
+end type
+
+on m_-0.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-0.destroy
+call super::destroy
+end on
+
+type m_exit from menu within m_file
+end type
+
+on m_exit.create
+call super::create
+this.tag = "size:large;"
+this.text = "E&xit"
+this.toolbaritemvisible = false
+this.toolbaritemname = "exit.gif"
+this.toolbaritemtext = "Exit"
+this.toolbaritemorder = 10
+this.toolbaritemspace = 2
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+type m_edit from menu within m_frame
+m_paste m_paste
+m_-3 m_-3
+m_cut m_cut
+m_copy m_copy
+m_-7 m_-7
+m_selectall m_selectall
+m_undo m_undo
+m_redo m_redo
+m_-8 m_-8
+m_find m_find
+m_replace m_replace
+m_replace0 m_replace0
+m_goto m_goto
+m_-9 m_-9
+m_commentselection m_commentselection
+m_uncommentselection m_uncommentselection
+m_-24 m_-24
+m_columnselect m_columnselect
+m_gotodefinition m_gotodefinition
+m_googleit m_googleit
+m_codetemplates m_codetemplates
+m_-18 m_-18
+m_createprocedure m_createprocedure
+m_tab m_tab
+m_shifttab m_shifttab
+m_escape m_escape
+m_insert0 m_insert0
+m_navforward m_navforward
+m_navback m_navback
+m_changecase m_changecase
+event selected2 pbm_menuselect
+end type
+
+on m_edit.create
+call super::create
+this.text = "&Edit"
+this.toolbaritemvisible = false
+this.m_paste=create m_paste
+this.m_-3=create m_-3
+this.m_cut=create m_cut
+this.m_copy=create m_copy
+this.m_-7=create m_-7
+this.m_selectall=create m_selectall
+this.m_undo=create m_undo
+this.m_redo=create m_redo
+this.m_-8=create m_-8
+this.m_find=create m_find
+this.m_replace=create m_replace
+this.m_replace0=create m_replace0
+this.m_goto=create m_goto
+this.m_-9=create m_-9
+this.m_commentselection=create m_commentselection
+this.m_uncommentselection=create m_uncommentselection
+this.m_-24=create m_-24
+this.m_columnselect=create m_columnselect
+this.m_gotodefinition=create m_gotodefinition
+this.m_googleit=create m_googleit
+this.m_codetemplates=create m_codetemplates
+this.m_-18=create m_-18
+this.m_createprocedure=create m_createprocedure
+this.m_tab=create m_tab
+this.m_shifttab=create m_shifttab
+this.m_escape=create m_escape
+this.m_insert0=create m_insert0
+this.m_navforward=create m_navforward
+this.m_navback=create m_navback
+this.m_changecase=create m_changecase
+this.Item[UpperBound(this.Item)+1]=this.m_paste
+this.Item[UpperBound(this.Item)+1]=this.m_-3
+this.Item[UpperBound(this.Item)+1]=this.m_cut
+this.Item[UpperBound(this.Item)+1]=this.m_copy
+this.Item[UpperBound(this.Item)+1]=this.m_-7
+this.Item[UpperBound(this.Item)+1]=this.m_selectall
+this.Item[UpperBound(this.Item)+1]=this.m_undo
+this.Item[UpperBound(this.Item)+1]=this.m_redo
+this.Item[UpperBound(this.Item)+1]=this.m_-8
+this.Item[UpperBound(this.Item)+1]=this.m_find
+this.Item[UpperBound(this.Item)+1]=this.m_replace
+this.Item[UpperBound(this.Item)+1]=this.m_replace0
+this.Item[UpperBound(this.Item)+1]=this.m_goto
+this.Item[UpperBound(this.Item)+1]=this.m_-9
+this.Item[UpperBound(this.Item)+1]=this.m_commentselection
+this.Item[UpperBound(this.Item)+1]=this.m_uncommentselection
+this.Item[UpperBound(this.Item)+1]=this.m_-24
+this.Item[UpperBound(this.Item)+1]=this.m_columnselect
+this.Item[UpperBound(this.Item)+1]=this.m_gotodefinition
+this.Item[UpperBound(this.Item)+1]=this.m_googleit
+this.Item[UpperBound(this.Item)+1]=this.m_codetemplates
+this.Item[UpperBound(this.Item)+1]=this.m_-18
+this.Item[UpperBound(this.Item)+1]=this.m_createprocedure
+this.Item[UpperBound(this.Item)+1]=this.m_tab
+this.Item[UpperBound(this.Item)+1]=this.m_shifttab
+this.Item[UpperBound(this.Item)+1]=this.m_escape
+this.Item[UpperBound(this.Item)+1]=this.m_insert0
+this.Item[UpperBound(this.Item)+1]=this.m_navforward
+this.Item[UpperBound(this.Item)+1]=this.m_navback
+this.Item[UpperBound(this.Item)+1]=this.m_changecase
+end on
+
+on m_edit.destroy
+call super::destroy
+destroy(this.m_paste)
+destroy(this.m_-3)
+destroy(this.m_cut)
+destroy(this.m_copy)
+destroy(this.m_-7)
+destroy(this.m_selectall)
+destroy(this.m_undo)
+destroy(this.m_redo)
+destroy(this.m_-8)
+destroy(this.m_find)
+destroy(this.m_replace)
+destroy(this.m_replace0)
+destroy(this.m_goto)
+destroy(this.m_-9)
+destroy(this.m_commentselection)
+destroy(this.m_uncommentselection)
+destroy(this.m_-24)
+destroy(this.m_columnselect)
+destroy(this.m_gotodefinition)
+destroy(this.m_googleit)
+destroy(this.m_codetemplates)
+destroy(this.m_-18)
+destroy(this.m_createprocedure)
+destroy(this.m_tab)
+destroy(this.m_shifttab)
+destroy(this.m_escape)
+destroy(this.m_insert0)
+destroy(this.m_navforward)
+destroy(this.m_navback)
+destroy(this.m_changecase)
+end on
+
+type m_paste from menu within m_edit
+end type
+
+on m_paste.create
+call super::create
+this.tag = "group:Clipboard;size:large"
+this.text = "&Paste~tCtrl+V"
+this.toolbaritemvisible = false
+this.toolbaritemname = "paste!"
+this.toolbaritemorder = 9
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+type m_-3 from menu within m_edit
+end type
+
+on m_-3.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-3.destroy
+call super::destroy
+end on
+
+type m_cut from menu within m_edit
+end type
+
+on m_cut.create
+call super::create
+this.tag = "group:Clipboard;displaytext:false"
+this.text = "Cu&t~tCtrl+X"
+this.shortcut = 344
+this.toolbaritemvisible = false
+this.toolbaritemname = "cut!"
+this.toolbaritemorder = 7
+this.toolbaritemspace = 2
+end on
+
+on m_cut.destroy
+call super::destroy
+end on
+
+type m_copy from menu within m_edit
+end type
+
+on m_copy.create
+call super::create
+this.tag = "group:Clipboard;displaytext:false"
+this.text = "&Copy~tCtrl+C"
+this.shortcut = 323
+this.toolbaritemvisible = false
+this.toolbaritemname = "copy!"
+this.toolbaritemorder = 8
+end on
+
+on m_copy.destroy
+call super::destroy
+end on
+
+event clicked;this.enabled = false
+Parentwindow.SetRedraw(TRUE)
+end event
+
+type m_-7 from menu within m_edit
+end type
+
+on m_-7.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-7.destroy
+call super::destroy
+end on
+
+type m_selectall from menu within m_edit
+end type
+
+on m_selectall.create
+call super::create
+this.tag = "group:Clipboard;displaytext:false"
+this.text = "Select A&ll~tCtrl+A"
+this.shortcut = 321
+this.toolbaritemvisible = false
+this.toolbaritemname = "selectall!"
+end on
+
+on m_selectall.destroy
+call super::destroy
+end on
+
+type m_undo from menu within m_edit
+end type
+
+on m_undo.create
+call super::create
+this.tag = "group:Clipboard;size:Large"
+this.text = "&Undo~tCtrl+Z"
+this.shortcut = 346
+this.toolbaritemvisible = false
+this.toolbaritemname = "undo!"
+this.toolbaritemorder = 6
+this.toolbaritemspace = 2
+end on
+
+on m_undo.destroy
+call super::destroy
+end on
+
+type m_redo from menu within m_edit
+end type
+
+on m_redo.create
+call super::create
+this.tag = "group:Clipboard"
+this.visible = false
+this.text = "Redo"
+end on
+
+on m_redo.destroy
+call super::destroy
+end on
+
+type m_-8 from menu within m_edit
+end type
+
+on m_-8.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-8.destroy
+call super::destroy
+end on
+
+type m_find from menu within m_edit
+end type
+
+on m_find.create
+call super::create
+this.tag = "group:Find"
+this.text = "&Find~tCtrl+F"
+this.shortcut = 326
+this.toolbaritemvisible = false
+this.toolbaritemname = "find!"
+end on
+
+on m_find.destroy
+call super::destroy
+end on
+
+type m_replace from menu within m_edit
+end type
+
+on m_replace.create
+call super::create
+this.tag = "group:Find"
+this.text = "R&eplace~tCtrl+H"
+this.shortcut = 328
+this.toolbaritemvisible = false
+this.toolbaritemname = "replace!"
+end on
+
+on m_replace.destroy
+call super::destroy
+end on
+
+type m_replace0 from menu within m_edit
+end type
+
+on m_replace0.create
+call super::create
+this.visible = false
+this.text = "Replace~tCtrl+R"
+this.shortcut = 338
+end on
+
+on m_replace0.destroy
+call super::destroy
+end on
+
+type m_goto from menu within m_edit
+end type
+
+on m_goto.create
+call super::create
+this.tag = "group:Find"
+this.text = "&GoTo~tCtrl+G"
+this.shortcut = 327
+this.toolbaritemvisible = false
+this.toolbaritemname = "move5!"
+end on
+
+on m_goto.destroy
+call super::destroy
+end on
+
+type m_-9 from menu within m_edit
+end type
+
+on m_-9.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-9.destroy
+call super::destroy
+end on
+
+type m_commentselection from menu within m_edit
+end type
+
+on m_commentselection.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Comment Selection"
+this.toolbaritemvisible = false
+this.toolbaritemname = "comment!"
+end on
+
+on m_commentselection.destroy
+call super::destroy
+end on
+
+type m_uncommentselection from menu within m_edit
+end type
+
+on m_uncommentselection.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Uncomment Selection"
+this.toolbaritemvisible = false
+this.toolbaritemname = "uncomment!"
+end on
+
+on m_uncommentselection.destroy
+call super::destroy
+end on
+
+type m_-24 from menu within m_edit
+end type
+
+on m_-24.create
+call super::create
+this.text = "-"
+end on
+
+on m_-24.destroy
+call super::destroy
+end on
+
+type m_columnselect from menu within m_edit
+end type
+
+on m_columnselect.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Display Table~tF2"
+this.shortcut = 113
+this.toolbaritemvisible = false
+this.toolbaritemname = "table!"
+end on
+
+on m_columnselect.destroy
+call super::destroy
+end on
+
+type m_gotodefinition from menu within m_edit
+end type
+
+on m_gotodefinition.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Go To Definition~tF4"
+this.shortcut = 115
+this.toolbaritemvisible = false
+this.toolbaritemname = "move5!"
+end on
+
+on m_gotodefinition.destroy
+call super::destroy
+end on
+
+type m_googleit from menu within m_edit
+end type
+
+on m_googleit.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Google It"
+this.toolbaritemname = "UserObject5!"
+end on
+
+on m_googleit.destroy
+call super::destroy
+end on
+
+type m_codetemplates from menu within m_edit
+m_viewtemplates m_viewtemplates
+m_createcodetemplatefromselectedtext m_createcodetemplatefromselectedtext
+end type
+
+on m_codetemplates.create
+call super::create
+this.tag = "group:Editor;size:large"
+this.text = "Code Templates"
+this.toolbaritemvisible = false
+this.toolbaritemname = "new.gif"
+this.m_viewtemplates=create m_viewtemplates
+this.m_createcodetemplatefromselectedtext=create m_createcodetemplatefromselectedtext
+this.Item[UpperBound(this.Item)+1]=this.m_viewtemplates
+this.Item[UpperBound(this.Item)+1]=this.m_createcodetemplatefromselectedtext
+end on
+
+on m_codetemplates.destroy
+call super::destroy
+destroy(this.m_viewtemplates)
+destroy(this.m_createcodetemplatefromselectedtext)
+end on
+
+type m_viewtemplates from menu within m_codetemplates
+end type
+
+on m_viewtemplates.create
+call super::create
+this.text = "View Templates~tF3"
+this.shortcut = 114
+end on
+
+on m_viewtemplates.destroy
+call super::destroy
+end on
+
+type m_createcodetemplatefromselectedtext from menu within m_codetemplates
+end type
+
+on m_createcodetemplatefromselectedtext.create
+call super::create
+this.text = "Create Code Template"
+end on
+
+on m_createcodetemplatefromselectedtext.destroy
+call super::destroy
+end on
+
+type m_-18 from menu within m_edit
+end type
+
+on m_-18.create
+call super::create
+this.text = "-"
+end on
+
+on m_-18.destroy
+call super::destroy
+end on
+
+type m_createprocedure from menu within m_edit
+m_select m_select
+m_insert m_insert
+m_update m_update
+m_delete m_delete
+end type
+
+on m_createprocedure.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Create Procedure"
+this.toolbaritemname = "new.gif"
+this.m_select=create m_select
+this.m_insert=create m_insert
+this.m_update=create m_update
+this.m_delete=create m_delete
+this.Item[UpperBound(this.Item)+1]=this.m_select
+this.Item[UpperBound(this.Item)+1]=this.m_insert
+this.Item[UpperBound(this.Item)+1]=this.m_update
+this.Item[UpperBound(this.Item)+1]=this.m_delete
+end on
+
+on m_createprocedure.destroy
+call super::destroy
+destroy(this.m_select)
+destroy(this.m_insert)
+destroy(this.m_update)
+destroy(this.m_delete)
+end on
+
+type m_select from menu within m_createprocedure
+end type
+
+on m_select.create
+call super::create
+this.text = "Select"
+end on
+
+on m_select.destroy
+call super::destroy
+end on
+
+type m_insert from menu within m_createprocedure
+end type
+
+on m_insert.create
+call super::create
+this.text = "Insert"
+end on
+
+on m_insert.destroy
+call super::destroy
+end on
+
+type m_update from menu within m_createprocedure
+end type
+
+on m_update.create
+call super::create
+this.text = "Update"
+end on
+
+on m_update.destroy
+call super::destroy
+end on
+
+type m_delete from menu within m_createprocedure
+end type
+
+on m_delete.create
+call super::create
+this.text = "Delete"
+end on
+
+on m_delete.destroy
+call super::destroy
+end on
+
+type m_tab from menu within m_edit
+end type
+
+on m_tab.create
+call super::create
+this.visible = false
+this.text = "Tab"
+this.shortcut = 9
+this.toolbaritemvisible = false
+end on
+
+on m_tab.destroy
+call super::destroy
+end on
+
+type m_shifttab from menu within m_edit
+end type
+
+on m_shifttab.create
+call super::create
+this.visible = false
+this.text = "Shift Tab"
+this.shortcut = 1033
+this.toolbaritemvisible = false
+end on
+
+on m_shifttab.destroy
+call super::destroy
+end on
+
+type m_escape from menu within m_edit
+end type
+
+on m_escape.create
+call super::create
+this.visible = false
+this.text = "Escape"
+this.shortcut = 27
+this.toolbaritemvisible = false
+end on
+
+on m_escape.destroy
+call super::destroy
+end on
+
+type m_insert0 from menu within m_edit
+m_newguid m_newguid
+m_calculatedvalue m_calculatedvalue
+m_todaysdate m_todaysdate
+m_todaysdatatime m_todaysdatatime
+m_currenttime m_currenttime
+m_null m_null
+end type
+
+on m_insert0.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Insert Value"
+this.toolbaritemname = "new.gif"
+this.m_newguid=create m_newguid
+this.m_calculatedvalue=create m_calculatedvalue
+this.m_todaysdate=create m_todaysdate
+this.m_todaysdatatime=create m_todaysdatatime
+this.m_currenttime=create m_currenttime
+this.m_null=create m_null
+this.Item[UpperBound(this.Item)+1]=this.m_newguid
+this.Item[UpperBound(this.Item)+1]=this.m_calculatedvalue
+this.Item[UpperBound(this.Item)+1]=this.m_todaysdate
+this.Item[UpperBound(this.Item)+1]=this.m_todaysdatatime
+this.Item[UpperBound(this.Item)+1]=this.m_currenttime
+this.Item[UpperBound(this.Item)+1]=this.m_null
+end on
+
+on m_insert0.destroy
+call super::destroy
+destroy(this.m_newguid)
+destroy(this.m_calculatedvalue)
+destroy(this.m_todaysdate)
+destroy(this.m_todaysdatatime)
+destroy(this.m_currenttime)
+destroy(this.m_null)
+end on
+
+type m_newguid from menu within m_insert0
+end type
+
+on m_newguid.create
+call super::create
+this.text = "New Guid"
+end on
+
+on m_newguid.destroy
+call super::destroy
+end on
+
+type m_calculatedvalue from menu within m_insert0
+end type
+
+on m_calculatedvalue.create
+call super::create
+this.text = "Calculated Value"
+end on
+
+on m_calculatedvalue.destroy
+call super::destroy
+end on
+
+type m_todaysdate from menu within m_insert0
+end type
+
+on m_todaysdate.create
+call super::create
+this.text = "Today~'s Date"
+end on
+
+on m_todaysdate.destroy
+call super::destroy
+end on
+
+type m_todaysdatatime from menu within m_insert0
+end type
+
+on m_todaysdatatime.create
+call super::create
+this.text = "Today~'s Date + Time"
+end on
+
+on m_todaysdatatime.destroy
+call super::destroy
+end on
+
+type m_currenttime from menu within m_insert0
+end type
+
+on m_currenttime.create
+call super::create
+this.text = "Current Time"
+end on
+
+on m_currenttime.destroy
+call super::destroy
+end on
+
+type m_null from menu within m_insert0
+end type
+
+on m_null.create
+call super::create
+this.text = "Null~tShift+Del"
+this.shortcut = 1070
+end on
+
+on m_null.destroy
+call super::destroy
+end on
+
+type m_navforward from menu within m_edit
+end type
+
+on m_navforward.create
+call super::create
+this.visible = false
+this.text = "NavForward~tShift+"
+this.shortcut = 265
+end on
+
+on m_navforward.destroy
+call super::destroy
+end on
+
+type m_navback from menu within m_edit
+end type
+
+on m_navback.create
+call super::create
+this.visible = false
+this.text = "NavBack~tCtrl+Shift+TAB"
+this.shortcut = 1289
+end on
+
+on m_navback.destroy
+call super::destroy
+end on
+
+type m_changecase from menu within m_edit
+m_upper m_upper
+m_lower m_lower
+m_proper m_proper
+end type
+
+on m_changecase.create
+call super::create
+this.tag = "group:Editor"
+this.text = "Change Case"
+this.toolbaritemname = "sort!"
+this.m_upper=create m_upper
+this.m_lower=create m_lower
+this.m_proper=create m_proper
+this.Item[UpperBound(this.Item)+1]=this.m_upper
+this.Item[UpperBound(this.Item)+1]=this.m_lower
+this.Item[UpperBound(this.Item)+1]=this.m_proper
+end on
+
+on m_changecase.destroy
+call super::destroy
+destroy(this.m_upper)
+destroy(this.m_lower)
+destroy(this.m_proper)
+end on
+
+type m_upper from menu within m_changecase
+end type
+
+on m_upper.create
+call super::create
+this.text = "Upper"
+end on
+
+on m_upper.destroy
+call super::destroy
+end on
+
+type m_lower from menu within m_changecase
+end type
+
+on m_lower.create
+call super::create
+this.text = "Lower"
+end on
+
+on m_lower.destroy
+call super::destroy
+end on
+
+type m_proper from menu within m_changecase
+end type
+
+on m_proper.create
+call super::create
+this.text = "InitCap"
+end on
+
+on m_proper.destroy
+call super::destroy
+end on
+
+type m_view0 from menu within m_frame
+m_folderexplorer m_folderexplorer
+m_objectbrowser m_objectbrowser
+m_-19 m_-19
+m_gettingstarted m_gettingstarted
+m_-15 m_-15
+m_todolist m_todolist
+m_clipboard m_clipboard
+end type
+
+on m_view0.create
+call super::create
+this.text = "&View"
+this.toolbaritemvisible = false
+this.m_folderexplorer=create m_folderexplorer
+this.m_objectbrowser=create m_objectbrowser
+this.m_-19=create m_-19
+this.m_gettingstarted=create m_gettingstarted
+this.m_-15=create m_-15
+this.m_todolist=create m_todolist
+this.m_clipboard=create m_clipboard
+this.Item[UpperBound(this.Item)+1]=this.m_folderexplorer
+this.Item[UpperBound(this.Item)+1]=this.m_objectbrowser
+this.Item[UpperBound(this.Item)+1]=this.m_-19
+this.Item[UpperBound(this.Item)+1]=this.m_gettingstarted
+this.Item[UpperBound(this.Item)+1]=this.m_-15
+this.Item[UpperBound(this.Item)+1]=this.m_todolist
+this.Item[UpperBound(this.Item)+1]=this.m_clipboard
+end on
+
+on m_view0.destroy
+call super::destroy
+destroy(this.m_folderexplorer)
+destroy(this.m_objectbrowser)
+destroy(this.m_-19)
+destroy(this.m_gettingstarted)
+destroy(this.m_-15)
+destroy(this.m_todolist)
+destroy(this.m_clipboard)
+end on
+
+type m_folderexplorer from menu within m_view0
+end type
+
+on m_folderexplorer.create
+call super::create
+this.tag = "group:View;size:Large"
+this.text = "F&ile Explorer"
+this.toolbaritemvisible = false
+this.toolbaritemname = "folder.ico"
+end on
+
+on m_folderexplorer.destroy
+call super::destroy
+end on
+
+type m_objectbrowser from menu within m_view0
+end type
+
+on m_objectbrowser.create
+call super::create
+this.tag = "group:View;size:Large"
+this.text = "Object Browser"
+this.toolbaritemvisible = false
+this.toolbaritemname = "browse!"
+end on
+
+on m_objectbrowser.destroy
+call super::destroy
+end on
+
+type m_-19 from menu within m_view0
+end type
+
+on m_-19.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-19.destroy
+call super::destroy
+end on
+
+type m_gettingstarted from menu within m_view0
+end type
+
+on m_gettingstarted.create
+call super::create
+this.tag = "group:View"
+this.text = "Start Page"
+this.toolbaritemvisible = false
+this.toolbaritemname = "Asterisk!"
+end on
+
+on m_gettingstarted.destroy
+call super::destroy
+end on
+
+type m_-15 from menu within m_view0
+event create ( )
+event destroy ( )
+end type
+
+on m_-15.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-15.destroy
+call super::destroy
+end on
+
+type m_todolist from menu within m_view0
+event create ( )
+event destroy ( )
+end type
+
+on m_todolist.create
+call super::create
+this.tag = "group:View"
+this.text = "No&tes"
+this.toolbaritemvisible = false
+this.toolbaritemname = "todolist!"
+end on
+
+on m_todolist.destroy
+call super::destroy
+end on
+
+type m_clipboard from menu within m_view0
+end type
+
+on m_clipboard.create
+call super::create
+this.tag = "group:View"
+this.text = "Clipboard"
+this.toolbaritemvisible = false
+this.toolbaritemname = "pastesql5!"
+end on
+
+on m_clipboard.destroy
+call super::destroy
+end on
+
+type m_actions from menu within m_frame
+m_execute m_execute
+m_execute5 m_execute5
+m_execute2 m_execute2
+m_execute3 m_execute3
+m_execute4 m_execute4
+m_-6 m_-6
+m_connect m_connect
+m_disconnect m_disconnect
+m_-10 m_-10
+m_registerdatasource m_registerdatasource
+m_editdatasource m_editdatasource
+m_removedatasource m_removedatasource
+end type
+
+on m_actions.create
+call super::create
+this.text = "&Datasource"
+this.toolbaritemvisible = false
+this.m_execute=create m_execute
+this.m_execute5=create m_execute5
+this.m_execute2=create m_execute2
+this.m_execute3=create m_execute3
+this.m_execute4=create m_execute4
+this.m_-6=create m_-6
+this.m_connect=create m_connect
+this.m_disconnect=create m_disconnect
+this.m_-10=create m_-10
+this.m_registerdatasource=create m_registerdatasource
+this.m_editdatasource=create m_editdatasource
+this.m_removedatasource=create m_removedatasource
+this.Item[UpperBound(this.Item)+1]=this.m_execute
+this.Item[UpperBound(this.Item)+1]=this.m_execute5
+this.Item[UpperBound(this.Item)+1]=this.m_execute2
+this.Item[UpperBound(this.Item)+1]=this.m_execute3
+this.Item[UpperBound(this.Item)+1]=this.m_execute4
+this.Item[UpperBound(this.Item)+1]=this.m_-6
+this.Item[UpperBound(this.Item)+1]=this.m_connect
+this.Item[UpperBound(this.Item)+1]=this.m_disconnect
+this.Item[UpperBound(this.Item)+1]=this.m_-10
+this.Item[UpperBound(this.Item)+1]=this.m_registerdatasource
+this.Item[UpperBound(this.Item)+1]=this.m_editdatasource
+this.Item[UpperBound(this.Item)+1]=this.m_removedatasource
+end on
+
+on m_actions.destroy
+call super::destroy
+destroy(this.m_execute)
+destroy(this.m_execute5)
+destroy(this.m_execute2)
+destroy(this.m_execute3)
+destroy(this.m_execute4)
+destroy(this.m_-6)
+destroy(this.m_connect)
+destroy(this.m_disconnect)
+destroy(this.m_-10)
+destroy(this.m_registerdatasource)
+destroy(this.m_editdatasource)
+destroy(this.m_removedatasource)
+end on
+
+type m_execute from menu within m_actions
+end type
+
+on m_execute.create
+call super::create
+this.tag = "group:Datasource;size:large"
+this.text = "&Execute~tF7"
+this.shortcut = 118
+this.toolbaritemvisible = false
+this.toolbaritemname = "executesql5!"
+end on
+
+on m_execute.destroy
+call super::destroy
+end on
+
+type m_execute5 from menu within m_actions
+end type
+
+on m_execute5.create
+call super::create
+this.visible = false
+this.text = "Execute5~tF9"
+this.shortcut = 120
+end on
+
+on m_execute5.destroy
+call super::destroy
+end on
+
+type m_execute2 from menu within m_actions
+end type
+
+on m_execute2.create
+call super::create
+this.visible = false
+this.text = "Execute 2 ~tCtrl+E"
+this.shortcut = 325
+this.toolbaritemvisible = false
+end on
+
+on m_execute2.destroy
+call super::destroy
+end on
+
+type m_execute3 from menu within m_actions
+end type
+
+on m_execute3.create
+call super::create
+this.visible = false
+this.text = "Execute 3~tF5"
+this.shortcut = 116
+this.toolbaritemvisible = false
+end on
+
+on m_execute3.destroy
+call super::destroy
+end on
+
+type m_execute4 from menu within m_actions
+end type
+
+on m_execute4.create
+call super::create
+this.visible = false
+this.text = "Execute 4~tCtrl+F12"
+this.shortcut = 269
+this.toolbaritemvisible = false
+end on
+
+on m_execute4.destroy
+call super::destroy
+end on
+
+type m_-6 from menu within m_actions
+end type
+
+on m_-6.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-6.destroy
+call super::destroy
+end on
+
+type m_connect from menu within m_actions
+event create ( )
+event destroy ( )
+end type
+
+on m_connect.create
+call super::create
+this.tag = "group:Datasource"
+this.text = "C&onnect"
+this.toolbaritemvisible = false
+end on
+
+on m_connect.destroy
+call super::destroy
+end on
+
+type m_disconnect from menu within m_actions
+event create ( )
+event destroy ( )
+end type
+
+on m_disconnect.create
+call super::create
+this.tag = "group:Datasource"
+this.text = "&Disconnect"
+this.toolbaritemvisible = false
+end on
+
+on m_disconnect.destroy
+call super::destroy
+end on
+
+type m_-10 from menu within m_actions
+event create ( )
+event destroy ( )
+end type
+
+on m_-10.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-10.destroy
+call super::destroy
+end on
+
+type m_registerdatasource from menu within m_actions
+end type
+
+on m_registerdatasource.create
+call super::create
+this.tag = "group:Manage"
+this.text = "&Register Datasource"
+this.toolbaritemvisible = false
+end on
+
+on m_registerdatasource.destroy
+call super::destroy
+end on
+
+type m_editdatasource from menu within m_actions
+end type
+
+on m_editdatasource.create
+call super::create
+this.tag = "group:Manage"
+this.text = "&Modify Datasource"
+this.toolbaritemvisible = false
+end on
+
+on m_editdatasource.destroy
+call super::destroy
+end on
+
+type m_removedatasource from menu within m_actions
+end type
+
+on m_removedatasource.create
+call super::create
+this.tag = "group:Manage"
+this.text = "&Un-Register Datasource"
+this.toolbaritemvisible = false
+end on
+
+on m_removedatasource.destroy
+call super::destroy
+end on
+
+type m_browse from menu within m_frame
+m_table m_table
+m_storedprocedures m_storedprocedures
+m_trigger m_trigger
+m_view m_view
+m_functions m_functions
+end type
+
+on m_browse.create
+call super::create
+this.text = "Browse"
+this.m_table=create m_table
+this.m_storedprocedures=create m_storedprocedures
+this.m_trigger=create m_trigger
+this.m_view=create m_view
+this.m_functions=create m_functions
+this.Item[UpperBound(this.Item)+1]=this.m_table
+this.Item[UpperBound(this.Item)+1]=this.m_storedprocedures
+this.Item[UpperBound(this.Item)+1]=this.m_trigger
+this.Item[UpperBound(this.Item)+1]=this.m_view
+this.Item[UpperBound(this.Item)+1]=this.m_functions
+end on
+
+on m_browse.destroy
+call super::destroy
+destroy(this.m_table)
+destroy(this.m_storedprocedures)
+destroy(this.m_trigger)
+destroy(this.m_view)
+destroy(this.m_functions)
+end on
+
+type m_table from menu within m_browse
+end type
+
+on m_table.create
+call super::create
+this.tag = "group:Browse;size:large"
+this.text = "Tables"
+end on
+
+on m_table.destroy
+call super::destroy
+end on
+
+type m_storedprocedures from menu within m_browse
+end type
+
+on m_storedprocedures.create
+call super::create
+this.tag = "group:Browse;size:large"
+this.text = "Stored Procedures"
+end on
+
+on m_storedprocedures.destroy
+call super::destroy
+end on
+
+type m_trigger from menu within m_browse
+end type
+
+on m_trigger.create
+call super::create
+this.tag = "group:Browse"
+this.text = "Triggers"
+end on
+
+on m_trigger.destroy
+call super::destroy
+end on
+
+type m_view from menu within m_browse
+end type
+
+on m_view.create
+call super::create
+this.tag = "group:Browse"
+this.text = "Views"
+end on
+
+on m_view.destroy
+call super::destroy
+end on
+
+type m_functions from menu within m_browse
+end type
+
+on m_functions.create
+call super::create
+this.tag = "group:Browse"
+this.text = "Functions"
+end on
+
+on m_functions.destroy
+call super::destroy
+end on
+
+type m_tools from menu within m_frame
+m_odbcadministrator m_odbcadministrator
+m_visualdifference m_visualdifference
+m_autoformat m_autoformat
+m_databasesearch m_databasesearch
+m_datatransfer m_datatransfer
+m_-12 m_-12
+m_namespaces m_namespaces
+m_codetemplates0 m_codetemplates0
+m_0 m_0
+m_clearintellisensecache m_clearintellisensecache
+m_-11 m_-11
+m_options m_options
+m_-16 m_-16
+m_add-ins m_add-ins
+end type
+
+on m_tools.create
+call super::create
+this.text = "&Tools"
+this.toolbaritemvisible = false
+this.m_odbcadministrator=create m_odbcadministrator
+this.m_visualdifference=create m_visualdifference
+this.m_autoformat=create m_autoformat
+this.m_databasesearch=create m_databasesearch
+this.m_datatransfer=create m_datatransfer
+this.m_-12=create m_-12
+this.m_namespaces=create m_namespaces
+this.m_codetemplates0=create m_codetemplates0
+this.m_0=create m_0
+this.m_clearintellisensecache=create m_clearintellisensecache
+this.m_-11=create m_-11
+this.m_options=create m_options
+this.m_-16=create m_-16
+this.m_add-ins=create m_add-ins
+this.Item[UpperBound(this.Item)+1]=this.m_odbcadministrator
+this.Item[UpperBound(this.Item)+1]=this.m_visualdifference
+this.Item[UpperBound(this.Item)+1]=this.m_autoformat
+this.Item[UpperBound(this.Item)+1]=this.m_databasesearch
+this.Item[UpperBound(this.Item)+1]=this.m_datatransfer
+this.Item[UpperBound(this.Item)+1]=this.m_-12
+this.Item[UpperBound(this.Item)+1]=this.m_namespaces
+this.Item[UpperBound(this.Item)+1]=this.m_codetemplates0
+this.Item[UpperBound(this.Item)+1]=this.m_0
+this.Item[UpperBound(this.Item)+1]=this.m_clearintellisensecache
+this.Item[UpperBound(this.Item)+1]=this.m_-11
+this.Item[UpperBound(this.Item)+1]=this.m_options
+this.Item[UpperBound(this.Item)+1]=this.m_-16
+this.Item[UpperBound(this.Item)+1]=this.m_add-ins
+end on
+
+on m_tools.destroy
+call super::destroy
+destroy(this.m_odbcadministrator)
+destroy(this.m_visualdifference)
+destroy(this.m_autoformat)
+destroy(this.m_databasesearch)
+destroy(this.m_datatransfer)
+destroy(this.m_-12)
+destroy(this.m_namespaces)
+destroy(this.m_codetemplates0)
+destroy(this.m_0)
+destroy(this.m_clearintellisensecache)
+destroy(this.m_-11)
+destroy(this.m_options)
+destroy(this.m_-16)
+destroy(this.m_add-ins)
+end on
+
+type m_odbcadministrator from menu within m_tools
+end type
+
+on m_odbcadministrator.create
+call super::create
+this.text = "OD&BC Administrator"
+this.toolbaritemvisible = false
+end on
+
+on m_odbcadministrator.destroy
+call super::destroy
+end on
+
+type m_visualdifference from menu within m_tools
+end type
+
+on m_visualdifference.create
+call super::create
+this.text = "&Visual Difference"
+this.toolbaritemvisible = false
+end on
+
+on m_visualdifference.destroy
+call super::destroy
+end on
+
+type m_autoformat from menu within m_tools
+end type
+
+on m_autoformat.create
+call super::create
+this.visible = false
+this.text = "&Auto Format"
+this.toolbaritemvisible = false
+end on
+
+on m_autoformat.destroy
+call super::destroy
+end on
+
+type m_databasesearch from menu within m_tools
+end type
+
+on m_databasesearch.create
+call super::create
+this.text = "&Database Search"
+this.toolbaritemvisible = false
+end on
+
+on m_databasesearch.destroy
+call super::destroy
+end on
+
+type m_datatransfer from menu within m_tools
+end type
+
+on m_datatransfer.create
+call super::create
+this.text = "Data Transfer"
+end on
+
+on m_datatransfer.destroy
+call super::destroy
+end on
+
+type m_-12 from menu within m_tools
+end type
+
+on m_-12.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-12.destroy
+call super::destroy
+end on
+
+type m_namespaces from menu within m_tools
+end type
+
+on m_namespaces.create
+call super::create
+this.text = "&My Autocomplete"
+end on
+
+on m_namespaces.destroy
+call super::destroy
+end on
+
+type m_codetemplates0 from menu within m_tools
+end type
+
+on m_codetemplates0.create
+call super::create
+this.text = "&Code Templates"
+this.toolbaritemvisible = false
+end on
+
+on m_codetemplates0.destroy
+call super::destroy
+end on
+
+type m_0 from menu within m_tools
+end type
+
+on m_0.create
+call super::create
+this.text = "-"
+end on
+
+on m_0.destroy
+call super::destroy
+end on
+
+type m_clearintellisensecache from menu within m_tools
+end type
+
+on m_clearintellisensecache.create
+call super::create
+this.text = "Clear Intellisense Cache"
+end on
+
+on m_clearintellisensecache.destroy
+call super::destroy
+end on
+
+type m_-11 from menu within m_tools
+end type
+
+on m_-11.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-11.destroy
+call super::destroy
+end on
+
+type m_options from menu within m_tools
+end type
+
+on m_options.create
+call super::create
+this.text = "&Options"
+this.toolbaritemvisible = false
+end on
+
+on m_options.destroy
+call super::destroy
+end on
+
+type m_-16 from menu within m_tools
+end type
+
+on m_-16.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-16.destroy
+call super::destroy
+end on
+
+type m_add-ins from menu within m_tools
+m_addin1 m_addin1
+m_addin2 m_addin2
+m_addin3 m_addin3
+m_addin4 m_addin4
+m_addin5 m_addin5
+m_addin6 m_addin6
+m_addin7 m_addin7
+m_addin8 m_addin8
+m_addin9 m_addin9
+m_addin10 m_addin10
+m_addin11 m_addin11
+m_addin12 m_addin12
+m_addin13 m_addin13
+m_addin14 m_addin14
+m_addin15 m_addin15
+m_-17 m_-17
+m_addadd-in m_addadd-in
+m_removeadd-in m_removeadd-in
+end type
+
+on m_add-ins.create
+call super::create
+this.text = "External Tools"
+this.toolbaritemvisible = false
+this.m_addin1=create m_addin1
+this.m_addin2=create m_addin2
+this.m_addin3=create m_addin3
+this.m_addin4=create m_addin4
+this.m_addin5=create m_addin5
+this.m_addin6=create m_addin6
+this.m_addin7=create m_addin7
+this.m_addin8=create m_addin8
+this.m_addin9=create m_addin9
+this.m_addin10=create m_addin10
+this.m_addin11=create m_addin11
+this.m_addin12=create m_addin12
+this.m_addin13=create m_addin13
+this.m_addin14=create m_addin14
+this.m_addin15=create m_addin15
+this.m_-17=create m_-17
+this.m_addadd-in=create m_addadd-in
+this.m_removeadd-in=create m_removeadd-in
+this.Item[UpperBound(this.Item)+1]=this.m_addin1
+this.Item[UpperBound(this.Item)+1]=this.m_addin2
+this.Item[UpperBound(this.Item)+1]=this.m_addin3
+this.Item[UpperBound(this.Item)+1]=this.m_addin4
+this.Item[UpperBound(this.Item)+1]=this.m_addin5
+this.Item[UpperBound(this.Item)+1]=this.m_addin6
+this.Item[UpperBound(this.Item)+1]=this.m_addin7
+this.Item[UpperBound(this.Item)+1]=this.m_addin8
+this.Item[UpperBound(this.Item)+1]=this.m_addin9
+this.Item[UpperBound(this.Item)+1]=this.m_addin10
+this.Item[UpperBound(this.Item)+1]=this.m_addin11
+this.Item[UpperBound(this.Item)+1]=this.m_addin12
+this.Item[UpperBound(this.Item)+1]=this.m_addin13
+this.Item[UpperBound(this.Item)+1]=this.m_addin14
+this.Item[UpperBound(this.Item)+1]=this.m_addin15
+this.Item[UpperBound(this.Item)+1]=this.m_-17
+this.Item[UpperBound(this.Item)+1]=this.m_addadd-in
+this.Item[UpperBound(this.Item)+1]=this.m_removeadd-in
+end on
+
+on m_add-ins.destroy
+call super::destroy
+destroy(this.m_addin1)
+destroy(this.m_addin2)
+destroy(this.m_addin3)
+destroy(this.m_addin4)
+destroy(this.m_addin5)
+destroy(this.m_addin6)
+destroy(this.m_addin7)
+destroy(this.m_addin8)
+destroy(this.m_addin9)
+destroy(this.m_addin10)
+destroy(this.m_addin11)
+destroy(this.m_addin12)
+destroy(this.m_addin13)
+destroy(this.m_addin14)
+destroy(this.m_addin15)
+destroy(this.m_-17)
+destroy(this.m_addadd-in)
+destroy(this.m_removeadd-in)
+end on
+
+type m_addin1 from menu within m_add-ins
+end type
+
+on m_addin1.create
+call super::create
+this.visible = false
+this.text = "addin1"
+this.toolbaritemvisible = false
+end on
+
+on m_addin1.destroy
+call super::destroy
+end on
+
+type m_addin2 from menu within m_add-ins
+end type
+
+on m_addin2.create
+call super::create
+this.visible = false
+this.text = "addin2"
+this.toolbaritemvisible = false
+end on
+
+on m_addin2.destroy
+call super::destroy
+end on
+
+type m_addin3 from menu within m_add-ins
+end type
+
+on m_addin3.create
+call super::create
+this.visible = false
+this.text = "addin3"
+this.toolbaritemvisible = false
+end on
+
+on m_addin3.destroy
+call super::destroy
+end on
+
+type m_addin4 from menu within m_add-ins
+end type
+
+on m_addin4.create
+call super::create
+this.visible = false
+this.text = "addin4"
+this.toolbaritemvisible = false
+end on
+
+on m_addin4.destroy
+call super::destroy
+end on
+
+type m_addin5 from menu within m_add-ins
+end type
+
+on m_addin5.create
+call super::create
+this.visible = false
+this.text = "addin5"
+this.toolbaritemvisible = false
+end on
+
+on m_addin5.destroy
+call super::destroy
+end on
+
+type m_addin6 from menu within m_add-ins
+end type
+
+on m_addin6.create
+call super::create
+this.visible = false
+this.text = "addin6"
+this.toolbaritemvisible = false
+end on
+
+on m_addin6.destroy
+call super::destroy
+end on
+
+type m_addin7 from menu within m_add-ins
+end type
+
+on m_addin7.create
+call super::create
+this.visible = false
+this.text = "addin7"
+this.toolbaritemvisible = false
+end on
+
+on m_addin7.destroy
+call super::destroy
+end on
+
+type m_addin8 from menu within m_add-ins
+end type
+
+on m_addin8.create
+call super::create
+this.visible = false
+this.text = "addin8"
+this.toolbaritemvisible = false
+end on
+
+on m_addin8.destroy
+call super::destroy
+end on
+
+type m_addin9 from menu within m_add-ins
+end type
+
+on m_addin9.create
+call super::create
+this.visible = false
+this.text = "addin9"
+this.toolbaritemvisible = false
+end on
+
+on m_addin9.destroy
+call super::destroy
+end on
+
+type m_addin10 from menu within m_add-ins
+end type
+
+on m_addin10.create
+call super::create
+this.visible = false
+this.text = "addin10"
+this.toolbaritemvisible = false
+end on
+
+on m_addin10.destroy
+call super::destroy
+end on
+
+type m_addin11 from menu within m_add-ins
+end type
+
+on m_addin11.create
+call super::create
+this.visible = false
+this.text = "addin11"
+this.toolbaritemvisible = false
+end on
+
+on m_addin11.destroy
+call super::destroy
+end on
+
+type m_addin12 from menu within m_add-ins
+end type
+
+on m_addin12.create
+call super::create
+this.visible = false
+this.text = "addin12"
+this.toolbaritemvisible = false
+end on
+
+on m_addin12.destroy
+call super::destroy
+end on
+
+type m_addin13 from menu within m_add-ins
+end type
+
+on m_addin13.create
+call super::create
+this.visible = false
+this.text = "addin13"
+this.toolbaritemvisible = false
+end on
+
+on m_addin13.destroy
+call super::destroy
+end on
+
+type m_addin14 from menu within m_add-ins
+end type
+
+on m_addin14.create
+call super::create
+this.visible = false
+this.text = "addin14"
+this.toolbaritemvisible = false
+end on
+
+on m_addin14.destroy
+call super::destroy
+end on
+
+type m_addin15 from menu within m_add-ins
+end type
+
+on m_addin15.create
+call super::create
+this.visible = false
+this.text = "addin15"
+this.toolbaritemvisible = false
+end on
+
+on m_addin15.destroy
+call super::destroy
+end on
+
+type m_-17 from menu within m_add-ins
+end type
+
+on m_-17.create
+call super::create
+this.visible = false
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-17.destroy
+call super::destroy
+end on
+
+type m_addadd-in from menu within m_add-ins
+end type
+
+on m_addadd-in.create
+call super::create
+this.text = "Add"
+this.toolbaritemvisible = false
+end on
+
+on m_addadd-in.destroy
+call super::destroy
+end on
+
+type m_removeadd-in from menu within m_add-ins
+end type
+
+on m_removeadd-in.create
+call super::create
+this.text = "Remove"
+this.toolbaritemvisible = false
+end on
+
+on m_removeadd-in.destroy
+call super::destroy
+end on
+
+type m_window from menu within m_frame
+m_closeall m_closeall
+end type
+
+on m_window.create
+call super::create
+this.visible = false
+this.text = "&Window"
+this.toolbaritemvisible = false
+this.m_closeall=create m_closeall
+this.Item[UpperBound(this.Item)+1]=this.m_closeall
+end on
+
+on m_window.destroy
+call super::destroy
+destroy(this.m_closeall)
+end on
+
+type m_closeall from menu within m_window
+end type
+
+on m_closeall.create
+call super::create
+this.text = "Cl&ose All"
+this.toolbaritemvisible = false
+end on
+
+on m_closeall.destroy
+call super::destroy
+end on
+
+type m_help from menu within m_frame
+m_contents m_contents
+m_-14 m_-14
+m_tipoftheday m_tipoftheday
+m_-5 m_-5
+m_onlinesupport m_onlinesupport
+m_howtovideos m_howtovideos
+m_featuresheet m_featuresheet
+m_-4 m_-4
+m_registerproduct m_registerproduct
+m_about m_about
+end type
+
+on m_help.create
+call super::create
+this.text = "&Help"
+this.toolbaritemvisible = false
+this.m_contents=create m_contents
+this.m_-14=create m_-14
+this.m_tipoftheday=create m_tipoftheday
+this.m_-5=create m_-5
+this.m_onlinesupport=create m_onlinesupport
+this.m_howtovideos=create m_howtovideos
+this.m_featuresheet=create m_featuresheet
+this.m_-4=create m_-4
+this.m_registerproduct=create m_registerproduct
+this.m_about=create m_about
+this.Item[UpperBound(this.Item)+1]=this.m_contents
+this.Item[UpperBound(this.Item)+1]=this.m_-14
+this.Item[UpperBound(this.Item)+1]=this.m_tipoftheday
+this.Item[UpperBound(this.Item)+1]=this.m_-5
+this.Item[UpperBound(this.Item)+1]=this.m_onlinesupport
+this.Item[UpperBound(this.Item)+1]=this.m_howtovideos
+this.Item[UpperBound(this.Item)+1]=this.m_featuresheet
+this.Item[UpperBound(this.Item)+1]=this.m_-4
+this.Item[UpperBound(this.Item)+1]=this.m_registerproduct
+this.Item[UpperBound(this.Item)+1]=this.m_about
+end on
+
+on m_help.destroy
+call super::destroy
+destroy(this.m_contents)
+destroy(this.m_-14)
+destroy(this.m_tipoftheday)
+destroy(this.m_-5)
+destroy(this.m_onlinesupport)
+destroy(this.m_howtovideos)
+destroy(this.m_featuresheet)
+destroy(this.m_-4)
+destroy(this.m_registerproduct)
+destroy(this.m_about)
+end on
+
+type m_contents from menu within m_help
+end type
+
+on m_contents.create
+call super::create
+this.text = "Contents~tF1"
+this.shortcut = 112
+this.toolbaritemvisible = false
+this.toolbaritemname = "help!"
+end on
+
+on m_contents.destroy
+call super::destroy
+end on
+
+type m_-14 from menu within m_help
+end type
+
+on m_-14.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-14.destroy
+call super::destroy
+end on
+
+type m_tipoftheday from menu within m_help
+end type
+
+on m_tipoftheday.create
+call super::create
+this.text = "T&ip of the Day"
+this.toolbaritemvisible = false
+end on
+
+on m_tipoftheday.destroy
+call super::destroy
+end on
+
+type m_-5 from menu within m_help
+end type
+
+on m_-5.create
+call super::create
+this.text = "-"
+this.toolbaritemvisible = false
+end on
+
+on m_-5.destroy
+call super::destroy
+end on
+
+type m_onlinesupport from menu within m_help
+end type
+
+on m_onlinesupport.create
+call super::create
+this.text = "Online Support"
+end on
+
+on m_onlinesupport.destroy
+call super::destroy
+end on
+
+type m_howtovideos from menu within m_help
+end type
+
+on m_howtovideos.create
+call super::create
+this.text = "How-To Video~'s"
+end on
+
+on m_howtovideos.destroy
+call super::destroy
+end on
+
+type m_featuresheet from menu within m_help
+end type
+
+on m_featuresheet.create
+call super::create
+this.text = "Feature Sheet"
+end on
+
+on m_featuresheet.destroy
+call super::destroy
+end on
+
+type m_-4 from menu within m_help
+end type
+
+on m_-4.create
+call super::create
+this.text = "-"
+end on
+
+on m_-4.destroy
+call super::destroy
+end on
+
+type m_registerproduct from menu within m_help
+end type
+
+on m_registerproduct.create
+call super::create
+this.text = "Register Product"
+end on
+
+on m_registerproduct.destroy
+call super::destroy
+end on
+
+type m_about from menu within m_help
+end type
+
+on m_about.create
+call super::create
+this.text = "&About"
+this.toolbaritemvisible = false
+end on
+
+on m_about.destroy
+call super::destroy
+end on
+

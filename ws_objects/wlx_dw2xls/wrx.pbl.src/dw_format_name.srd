@@ -1,0 +1,20 @@
+﻿$PBExportHeader$dw_format_name.srd
+$PBExportComments$названия форматов и короткое описание
+release 5;
+datawindow(units=0 timer_interval=0 color=15793151 processing=0 print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 97 print.margin.bottom = 97 print.paper.source = 0 print.paper.size = 0 print.prompt=no )
+header(height=1 color="536870912" )
+summary(height=1 color="536870912" )
+footer(height=1 color="536870912" )
+detail(height=77 color="536870912"  height.autosize=yes)
+table(column=(type=long updatewhereclause=no name=id dbname="id" )
+ column=(type=char(10) updatewhereclause=no name=format dbname="format" )
+ column=(type=char(20) updatewhereclause=no name=small_desc dbname="small_desc" )
+ column=(type=ulong updatewhereclause=no name=order dbname="order" )
+ column=(type=long updatewhereclause=no name=visible dbname="visible" )
+ column=(type=char(40) updatewhereclause=no name=fun_name dbname="fun_name" )
+ filter=" visible = 1"  sort="order A " )
+data( 1,"XLS","(через HTML)", 1, 1,"f_dw_save_as_xls_html", 2,"XLS","(через OLE)", 2, 1,"f_dw_save_as_xls_ole", 3,"XLS","(лише дані)", 3, 1,"f_dw_save_as_xls_standart", 4,"RTF",null  4, 1,"f_dw_save_as_rtf", 5,"HTML",null  5, 1,"f_dw_save_as_html", 6,"DBF",null  6, 0,"f_dw_save_as_dbf_standart", 7,"TXT","(лише дані)", 7, 1,"f_dw_save_as_txt_standart", 8,"CSV",null  8, 1,"f_dw_save_as_txt_standart",) 
+text(band=header alignment="2" text="Order"border="0" color="0" x="5500" y="4" height="65" width="220"  name=order_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=2 alignment="0" tabsequence=32766 border="0" color="16711680" x="97" y="4" height="69" width="174" format="[general]"  name=format edit.limit=0 edit.case=any edit.autoselect=yes edit.autohscroll=yes  font.face="Arial Cyr" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="-52" background.mode="1" background.color="553648127" )
+compute(band=detail alignment="0" expression="getrow()"border="0" color="255" x="14" y="4" height="69" width="74" format="[general]"  font.face="Arial Cyr" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="-52" background.mode="2" background.color="15793151" )
+column(band=detail id=3 alignment="0" tabsequence=32766 border="0" color="8388608" x="279" y="4" height="69" width="567" format="[general]"  name=small_desc edit.limit=0 edit.case=any edit.autoselect=yes  font.face="Arial Cyr" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="-52" background.mode="2" background.color="15793151" )

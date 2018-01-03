@@ -1,0 +1,35 @@
+﻿$PBExportHeader$uf_dw_as_excel_parm.srf
+global type uf_dw_as_excel_parm from function_object
+end type
+
+forward prototypes
+global function integer uf_dw_as_excel_parm (ref datawindow adw_dw, readonly string as_filename, ref n_dwr_service_parm anvo_parm)
+end prototypes
+
+global function integer uf_dw_as_excel_parm (ref datawindow adw_dw, readonly string as_filename, ref n_dwr_service_parm anvo_parm);Integer li_ret = 1
+n_dwr_service lnvo_dwr
+n_xls_workbook lnvo_writer
+If IsNull(anvo_parm) Then
+	anvo_parm = Create n_dwr_service_parm
+End If
+lnvo_dwr = Create n_dwr_service
+If anvo_parm.is_version = "97" Then
+	lnvo_writer = Create n_xls_workbook_v97
+Else
+	lnvo_writer = Create n_xls_workbook_v5
+End If
+li_ret = lnvo_dwr.of_create(adw_dw, lnvo_writer, as_filename, anvo_parm)
+If li_ret = 1 Then
+	li_ret = lnvo_dwr.of_process()
+End If
+If li_ret = 1 Then
+	lnvo_dwr.of_close()
+End If
+Destroy(lnvo_writer)
+Destroy(lnvo_dwr)
+If li_ret <> 1 Then
+	FileDelete(as_filename)
+End If
+Return li_ret
+end function
+

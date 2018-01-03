@@ -1,0 +1,13 @@
+﻿$PBExportHeader$f_dw_save_as_dbf_standart.srf
+global type f_dw_save_as_dbf_standart from function_object
+end type
+
+forward prototypes
+global function boolean f_dw_save_as_dbf_standart (datawindow adw, string as_path)
+end prototypes
+
+global function boolean f_dw_save_as_dbf_standart (datawindow adw, string as_path);adw.SaveAs(as_path, dBASE3!, true)
+MessageBox('!','Дані вивантажено до файлу:~r~n' + as_path)
+return true
+end function
+

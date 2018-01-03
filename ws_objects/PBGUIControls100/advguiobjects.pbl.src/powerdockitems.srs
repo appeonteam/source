@@ -1,0 +1,8 @@
+﻿$PBExportHeader$powerdockitems.srs
+global type powerdockitems from structure
+	string		as_text
+	string		as_image
+	userobject		ado_object
+	window		aw_window
+end type
+

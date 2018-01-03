@@ -1,0 +1,11 @@
+﻿$PBExportHeader$toolinfo.srs
+global type toolinfo from structure
+	long		cbsize
+	long		uflags
+	long		hwnd
+	long		uid
+	rect		rect
+	long		hinstance
+	long		lpsztext
+end type
+

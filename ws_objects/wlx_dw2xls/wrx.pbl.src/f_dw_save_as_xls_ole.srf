@@ -1,0 +1,69 @@
+﻿$PBExportHeader$f_dw_save_as_xls_ole.srf
+global type f_dw_save_as_xls_ole from function_object
+end type
+
+forward prototypes
+global function boolean f_dw_save_as_xls_ole (datawindow adw, string as_path)
+end prototypes
+
+global function boolean f_dw_save_as_xls_ole (datawindow adw, string as_path);
+boolean rezult
+n_cst_dw_unload_in_xls_ole_app lo_unload
+// константы для настройки параметров страници
+	// поля в сантиметрах !!! все остальные из етих двух через * и +
+constant double ld_0_5_sm = 14.17322834645666 // пол - сантиметра
+constant double ld_1_sm = 28.3464566929134 // 1 сантиметр
+	// ориентация листа
+		// альбомная
+constant int li_album = 2
+		// книжная
+constant int li_book = 1
+
+	// размер бумаги
+constant int li_10_14 = 16 // 10x14
+constant int li_11_17 = 17 // 11x17
+constant int li_a3 = 8 // A3
+constant int li_a4 = 9 // A4
+constant int li_a4_small = 10 // A4 small
+constant int li_a5 = 11 // A5
+constant int li_b4 = 12 // B4
+constant int li_b5 = 13 // B5
+
+//------------------------------------------------------------------------------------------
+
+lo_unload = create n_cst_dw_unload_in_xls_ole_app
+
+// настройка параметров страници для печати
+	// поля	
+		// левое поле
+lo_unload.id_page_setup_left_margin = ld_0_5_sm
+		// правое поле
+lo_unload.id_page_setup_right_margin = ld_0_5_sm
+		// нижнее поле
+lo_unload.id_page_setup_bootom_margin = ld_0_5_sm
+		// верхнее поле
+lo_unload.id_page_setup_top_margin = ld_0_5_sm
+
+	//ориентация листа
+lo_unload.ii_page_setup_orientation = li_book
+	// размер бумаги
+lo_unload.ii_page_setup_paper_size = li_a4
+	// масштаб
+lo_unload.ii_page_setup_zoom = 90
+
+
+rezult = lo_unload.of_exec(adw, as_path)
+
+destroy lo_unload
+//------------------------------------------------------------------------------------------
+
+if rezult then
+	return true
+else 
+	return false
+end if
+
+//------------------------------------------------------------------------------------------
+
+end function
+

@@ -1,0 +1,43 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "dw2xls.pbl" "";
+@end;
+@begin Objects 
+ "d_dw2xls_bands.srd" "dw2xls.pbl";
+ "d_dw2xls_formatindex.srd" "dw2xls.pbl";
+ "d_dw2xls_lineobjects.srd" "dw2xls.pbl";
+ "d_dw2xls_mergecells.srd" "dw2xls.pbl";
+ "d_dw2xls_objects.srd" "dw2xls.pbl";
+ "d_dw2xls_rowheight.srd" "dw2xls.pbl";
+ "d_dw2xls_systemformat.srd" "dw2xls.pbl";
+ "uf_bitand.srf" "dw2xls.pbl";
+ "uf_bitor.srf" "dw2xls.pbl";
+ "uf_bitshl.srf" "dw2xls.pbl";
+ "uf_bitshr.srf" "dw2xls.pbl";
+ "uf_bitxor.srf" "dw2xls.pbl";
+ "n_associated_ulong_srv.sru" "dw2xls.pbl";
+ "n_cst_dw2excel.sru" "dw2xls.pbl";
+ "n_cst_dw2excel_grid.sru" "dw2xls.pbl";
+ "n_cst_hash.sru" "dw2xls.pbl";
+ "n_cst_hash_blob.sru" "dw2xls.pbl";
+ "n_cst_hash_blob_entry.sru" "dw2xls.pbl";
+ "n_cst_hash_entry.sru" "dw2xls.pbl";
+ "n_cst_hash_long.sru" "dw2xls.pbl";
+ "n_cst_hash_long_entry.sru" "dw2xls.pbl";
+ "n_cst_sst.sru" "dw2xls.pbl";
+ "n_cst_unicode.sru" "dw2xls.pbl";
+ "n_cst_unicode_hash_long.sru" "dw2xls.pbl";
+ "n_cst_unicode_hash_long_entry.sru" "dw2xls.pbl";
+ "n_dwr_colors.sru" "dw2xls.pbl";
+ "n_xls_cell.sru" "dw2xls.pbl";
+ "n_xls_colinfo.sru" "dw2xls.pbl";
+ "n_xls_data.sru" "dw2xls.pbl";
+ "n_xls_format.sru" "dw2xls.pbl";
+ "n_xls_formats.sru" "dw2xls.pbl";
+ "n_xls_panes.sru" "dw2xls.pbl";
+ "n_xls_row.sru" "dw2xls.pbl";
+ "n_xls_selection.sru" "dw2xls.pbl";
+ "n_xls_subroutines.sru" "dw2xls.pbl";
+ "n_xls_workbook.sru" "dw2xls.pbl";
+ "n_xls_worksheet.sru" "dw2xls.pbl";
+@end;

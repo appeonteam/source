@@ -1,0 +1,182 @@
+﻿$PBExportHeader$mu_demo2.srm
+forward
+global type mu_demo2 from mu_demo
+end type
+type m_print from menu within m_file
+end type
+type m_file from mu_demo`m_file within mu_demo2
+m_print m_print
+end type
+type m_options from menu within mu_demo2
+end type
+global type mu_demo2 from mu_demo
+m_options m_options
+end type
+end forward
+
+global type mu_demo2 from mu_demo
+m_options m_options
+end type
+global mu_demo2 mu_demo2
+
+on mu_demo2.create
+mu_demo2=this
+call super::create
+this.text = "mu_demo2"
+this.m_options=create m_options
+this.Item[UpperBound(this.Item)+1]=this.m_options
+end on
+
+on mu_demo2.destroy
+call super::destroy
+destroy(this.m_options)
+end on
+
+type m_file from mu_demo`m_file within mu_demo2
+m_print m_print
+end type
+
+on m_file.create
+call super::create
+this.m_print=create m_print
+this.Item[UpperBound(this.Item)+1]=this.m_print
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_print)
+end on
+
+type m_open from mu_demo`m_open within m_file
+end type
+
+on m_open.create
+call super::create
+end on
+
+on m_open.destroy
+call super::destroy
+end on
+
+type m_close from mu_demo`m_close within m_file
+end type
+
+on m_close.create
+call super::create
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+type m_0 from mu_demo`m_0 within m_file
+end type
+
+on m_0.create
+call super::create
+end on
+
+on m_0.destroy
+call super::destroy
+end on
+
+type m_exit from mu_demo`m_exit within m_file
+end type
+
+on m_exit.create
+call super::create
+this.shifttoright = true
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+type m_edit from mu_demo`m_edit within mu_demo2
+end type
+
+on m_edit.create
+call super::create
+end on
+
+on m_edit.destroy
+call super::destroy
+end on
+
+type m_help from mu_demo`m_help within mu_demo2
+end type
+
+on m_help.create
+call super::create
+this.shifttoright = true
+end on
+
+on m_help.destroy
+call super::destroy
+end on
+
+type m_print from menu within m_file
+end type
+
+on m_print.create
+call super::create
+this.text = "Print"
+this.toolbaritemname = "Printer.ico"
+this.toolbaritemtext = "Print"
+this.menuimage = "Printer.ico"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menutitles = true
+this.menubitmaps = true
+this.menuanimation = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbaranimation = true
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+type m_options from menu within mu_demo2
+end type
+
+on m_options.create
+call super::create
+this.text = "&Options"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_options.destroy
+call super::destroy
+end on
+

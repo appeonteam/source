@@ -1,0 +1,11 @@
+﻿$PBExportHeader$bitmap.srs
+global type bitmap from structure
+	long		bmtype
+	long		bmwidth
+	long		bmheight
+	long		bmwidthbytes
+	unsignedinteger		bmplanes
+	unsignedinteger		bmbitsperpixel
+	unsignedlong		bmbits
+end type
+

@@ -1,0 +1,7 @@
+﻿$PBExportHeader$gradient_triangle.srs
+global type gradient_triangle from structure
+	unsignedlong		vertex1
+	unsignedlong		vertex2
+	unsignedlong		vertex3
+end type
+

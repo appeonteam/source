@@ -1,0 +1,6 @@
+﻿$PBExportHeader$gradient_rect.srs
+global type gradient_rect from structure
+	unsignedlong		upperleft
+	unsignedlong		lowerright
+end type
+

@@ -1,0 +1,18 @@
+﻿$PBExportHeader$ribbonitem.srs
+global type ribbonitem from structure
+	string		as_text
+	string		as_image
+	long		al_imageindex
+	integer		ai_type
+	menu		a_menu
+	point		ast_point[]
+	boolean		ab_selected
+	boolean		ab_mouseover
+	long		al_selectedcolor1
+	long		al_selectedcolor2
+	long		al_mouseovercolor1
+	long		al_mouseovercolor2
+	boolean		ab_enabled
+	long		al_textwidth
+end type
+

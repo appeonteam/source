@@ -1,0 +1,27 @@
+﻿$PBExportHeader$m_powerdockmenu.srm
+forward
+global type m_powerdockmenu from menu
+end type
+end forward
+
+global type m_powerdockmenu from menu
+end type
+global m_powerdockmenu m_powerdockmenu
+
+type variables
+u_cst_tabcontrol iuo_parent
+Long il_index
+Boolean ib_morewindows
+end variables
+
+on m_powerdockmenu.destroy
+call super::destroy
+end on
+
+event clicked;IF ib_morewindows THEN
+	OpenWithParm(w_powerdockdocumentselector, iuo_parent)
+ELSE
+	iuo_parent.of_SelectTab(il_index)
+END IF
+end event
+

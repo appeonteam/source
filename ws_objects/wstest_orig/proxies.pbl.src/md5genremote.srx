@@ -1,0 +1,12 @@
+﻿$PBExportHeader$md5genremote.srx
+$PBExportComments$Proxy imported from EAServer using EAServer Proxy generator.
+global type MD5GenRemote from CORBAObject
+end type
+global MD5GenRemote MD5GenRemote
+
+forward prototypes
+  public:
+function String getHashedData (String p1) alias for "getHashedData"
+subroutine remove () alias for "remove"
+        end prototypes
+

@@ -1,0 +1,14 @@
+﻿$PBExportHeader$pj_test.srj
+EXE:,,0,0,1
+CMP:1,0,0,2,0,0,1
+COM:APPEON
+DES:APPEON Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:demo.pbl,,0
+PBD:demo2.pbl,,0

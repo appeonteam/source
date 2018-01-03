@@ -1,0 +1,10 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "ink_demo.pbl" "";
+@end;
+@begin Objects 
+ "ap_ink_picture_demo.sra" "ink_demo.pbl";
+ "mu_ink_demo.srm" "ink_demo.pbl";
+ "wn_ink_demo.srw" "ink_demo.pbl";
+ "wn_ink_mdi.srw" "ink_demo.pbl";
+@end;

@@ -1,0 +1,33 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "ftpclient10.pbl" "";
+@end;
+@begin Objects 
+ "ftpclient.sra" "ftpclient10.pbl";
+ "d_filesorter.srd" "ftpclient10.pbl";
+ "p_buildexe10.srj" "ftpclient10.pbl";
+ "m_dynamicitem.srm" "ftpclient10.pbl";
+ "m_main.srm" "ftpclient10.pbl";
+ "s_ftpdirlist.srs" "ftpclient10.pbl";
+ "n_application.sru" "ftpclient10.pbl";
+ "n_dynamicitem.sru" "ftpclient10.pbl";
+ "n_filesys.sru" "ftpclient10.pbl";
+ "n_imagelist.sru" "ftpclient10.pbl";
+ "n_runandwait.sru" "ftpclient10.pbl";
+ "n_wininet.sru" "ftpclient10.pbl";
+ "u_cb.sru" "ftpclient10.pbl";
+ "u_listview.sru" "ftpclient10.pbl";
+ "u_panel.sru" "ftpclient10.pbl";
+ "u_panel_local.sru" "ftpclient10.pbl";
+ "u_panel_remote.sru" "ftpclient10.pbl";
+ "u_splitbar_horizontal.sru" "ftpclient10.pbl";
+ "u_splitbar_vertical.sru" "ftpclient10.pbl";
+ "u_treeview.sru" "ftpclient10.pbl";
+ "w_about.srw" "ftpclient10.pbl";
+ "w_base_response.srw" "ftpclient10.pbl";
+ "w_changedir.srw" "ftpclient10.pbl";
+ "w_createdir.srw" "ftpclient10.pbl";
+ "w_gotodir.srw" "ftpclient10.pbl";
+ "w_main.srw" "ftpclient10.pbl";
+ "w_profiles.srw" "ftpclient10.pbl";
+@end;

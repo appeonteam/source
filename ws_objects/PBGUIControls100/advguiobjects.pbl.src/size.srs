@@ -1,0 +1,6 @@
+﻿$PBExportHeader$size.srs
+global type size from structure
+	long		cx
+	long		cy
+end type
+

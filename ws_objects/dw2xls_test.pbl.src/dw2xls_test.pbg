@@ -1,0 +1,10 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "dw2xls_test.pbl" "";
+@end;
+@begin Objects 
+ "dw2xls_test.sra" "dw2xls_test.pbl";
+ "d_dwexample_group.srd" "dw2xls_test.pbl";
+ "d_test.srd" "dw2xls_test.pbl";
+ "w_main.srw" "dw2xls_test.pbl";
+@end;

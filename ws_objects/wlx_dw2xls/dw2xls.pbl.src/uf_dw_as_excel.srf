@@ -1,0 +1,16 @@
+﻿$PBExportHeader$uf_dw_as_excel.srf
+global type uf_dw_as_excel from function_object
+end type
+
+forward prototypes
+global function integer uf_dw_as_excel (ref datawindow adw_dw, readonly string as_filename)
+end prototypes
+
+global function integer uf_dw_as_excel (ref datawindow adw_dw, readonly string as_filename);Integer li_ret = 1
+n_dwr_service_parm lnvo_parm
+lnvo_parm = Create n_dwr_service_parm
+li_ret = uf_dw_as_excel_parm(adw_dw, as_filename, lnvo_parm)
+Return li_ret
+
+end function
+

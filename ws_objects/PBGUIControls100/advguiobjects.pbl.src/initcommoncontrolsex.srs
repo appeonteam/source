@@ -1,0 +1,6 @@
+﻿$PBExportHeader$initcommoncontrolsex.srs
+global type initcommoncontrolsex from structure
+	long		dwsize
+	long		dwicc
+end type
+

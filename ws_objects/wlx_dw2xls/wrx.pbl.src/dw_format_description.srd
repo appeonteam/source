@@ -1,0 +1,13 @@
+﻿$PBExportHeader$dw_format_description.srd
+$PBExportComments$описание форматов выгрузки
+release 5;
+datawindow(units=0 timer_interval=0 color=15793151 processing=0 print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 97 print.margin.bottom = 97 print.paper.source = 0 print.paper.size = 0 print.prompt=no )
+header(height=1 color="536870912" )
+summary(height=1 color="536870912" )
+footer(height=1 color="536870912" )
+detail(height=397 color="536870912" )
+table(column=(type=long updatewhereclause=no name=did dbname="did" )
+ column=(type=char(255) updatewhereclause=no name=description dbname="description" )
+ )
+data( 1,"Вивантаження даних до зовнішнього файлу  для відкриття в Excel. Дані вивантажуються в форматі HTML, з розширенням файлу XLS.", 2,"Вивантаження даних до зовнішнього файлу  для відкриття в Excel. Для вивантаження необхіно мати на машині встановлений Excel. Увага! ПІД ЧАС ВИВАНТАЖЕННЯ В EXCEL НЕ ПРАЦЮВАТИ.Це може привести до прикрих наслідків.", 3,"Вивантаження даних до зовнішнього файлу  для відкриття в Excel. Вивантажуються лише дані. Шапка та групування не вивантажуються.", 4,"Вивантаження даних до зовнішнього файлу  для відкриття в Word.", 5,"Вивантаження даних до зовнішнього файлу  для відкриття Internet Explorer, Word, Excel.", 6,"Вивантаження даних до зовнішнього файлу в DBF форматі.", 7,"Вивантаження даних до зовнішнього файлу в TXT форматі. Розділювач між колонками - табуляция.", 8,"Вивантаження даних до зовнішнього файлу в CSV форматі.",) 
+column(band=detail id=2 alignment="0" tabsequence=32766 border="0" color="8388608" x="1" y="4" height="389" width="2167" format="[general]"  name=description edit.limit=0 edit.case=any edit.autoselect=yes edit.autovscroll=yes  font.face="Arial Cyr" font.height="-11" font.weight="400"  font.family="2" font.pitch="2" font.charset="-52" background.mode="1" background.color="553648127" )

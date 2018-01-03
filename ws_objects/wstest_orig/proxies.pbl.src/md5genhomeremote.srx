@@ -1,0 +1,11 @@
+﻿$PBExportHeader$md5genhomeremote.srx
+$PBExportComments$Proxy imported from EAServer using EAServer Proxy generator.
+global type MD5GenHomeRemote from CORBAObject
+end type
+global MD5GenHomeRemote MD5GenHomeRemote
+
+forward prototypes
+  public:
+function MD5GenRemote create () alias for "create"
+    end prototypes
+

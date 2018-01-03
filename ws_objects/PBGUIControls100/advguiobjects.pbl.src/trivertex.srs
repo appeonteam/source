@@ -1,0 +1,10 @@
+﻿$PBExportHeader$trivertex.srs
+global type trivertex from structure
+	long		x
+	long		y
+	integer		red
+	integer		green
+	integer		blue
+	integer		alpha
+end type
+

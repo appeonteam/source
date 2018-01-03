@@ -1,0 +1,14 @@
+﻿$PBExportHeader$f_start_unload_dw.srf
+global type f_start_unload_dw from function_object
+end type
+
+forward prototypes
+global function boolean f_start_unload_dw (datawindow adw)
+end prototypes
+
+global function boolean f_start_unload_dw (datawindow adw);
+OpenWithParm(w_main_wrx,adw)
+
+if Message.StringParm <> '' then return true else return false
+end function
+

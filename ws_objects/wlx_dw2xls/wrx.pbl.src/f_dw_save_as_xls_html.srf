@@ -1,0 +1,24 @@
+﻿$PBExportHeader$f_dw_save_as_xls_html.srf
+$PBExportComments$1
+global type f_dw_save_as_xls_html from function_object
+end type
+
+forward prototypes
+global function boolean f_dw_save_as_xls_html (datawindow adw, string as_path)
+end prototypes
+
+global function boolean f_dw_save_as_xls_html (datawindow adw, string as_path);
+boolean rezult
+n_cst_dw_unload_in_xls_html_app lo_unload
+
+lo_unload = create n_cst_dw_unload_in_xls_html_app
+rezult = lo_unload.of_exec(adw, as_path)
+destroy lo_unload
+
+if rezult then
+	return true
+else 
+	return false
+end if
+end function
+

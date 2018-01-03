@@ -1,0 +1,37 @@
+﻿$PBExportHeader$f_open_file.srf
+global type f_open_file from function_object
+end type
+
+forward prototypes
+global function string f_open_file (string rosh)
+end prototypes
+
+global function string f_open_file (string rosh);string s_path, s_file
+boolean f = true
+integer i_error
+integer rezult
+integer i
+string s
+do 
+	i_error = GetFileSaveName("Введення імені зберігаємого файлу.",s_path,s_file , rosh, 'Файли ' + Upper(rosh) + ', *.' + rosh)
+	if i_error <> 1  THEN 
+		if i_error= - 1 then MessageBox("Увага!","Не можливо виконати операцію~n~r(Введення імені зберігаємого файлу.)",Question!, ok!)
+		s_path = ''
+		return s_path
+	end if
+	
+	if FileExists(s_path) then
+		rezult = MessageBox("Увага!","Файл "+s_path+"вже існує!.~n~rПереписати?",Question!, YesNoCancel!,1)
+		choose case rezult
+			case 1
+				FileDelete(s_path)
+				f = false
+			end choose
+		else
+			f = false
+		end if
+loop while f
+
+return s_path
+end function
+

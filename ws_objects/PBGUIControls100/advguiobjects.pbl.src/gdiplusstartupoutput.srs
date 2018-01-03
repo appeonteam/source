@@ -1,0 +1,6 @@
+﻿$PBExportHeader$gdiplusstartupoutput.srs
+global type gdiplusstartupoutput from structure
+	long		notificationhook
+	long		notificationunhook
+end type
+
