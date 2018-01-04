@@ -1,0 +1,48 @@
+﻿$PBExportHeader$d_richtext.srd
+release 17;
+datawindow(units=2 timer_interval=0 color=1073741824 processing=7 print.printername ="" print.documentname="" print.orientation = 0 print.margin.left = 250 print.margin.right = 250 print.margin.top = 250 print.margin.bottom = 250 print.paper.source = 0 print.paper.size = 0 print.canusedefaultprinter=yes print.prompt=no print.cliptext=no print.overrideprintjob=no print.collate=yes print.background=no print.preview.background=no print.preview.outline=yes richtext.headerfooter=yes richtext.wordwrap=no richtext.popmenu=yes richtext.pictureframe=no richtext.inputfieldnamesvisible=no richtext.inputfieldsvisible=yes richtext.tabsvisible=no richtext.returnsvisible=no richtext.spacesvisible=no richtext.inputfieldbackcolor=1073741824 richtext.backcolor=1073741824 richtext.tabbar=yes richtext.rulerbar=yes richtext.toolbar=yes richtext.displayonly=no )
+detail(text="{\rtf1\sstecf24000\ansi\deflang1033\ftnbj\uc1\deff0 
+{\fonttbl{\f0 \fswiss Arial;}{\f1 \fswiss \fcharset0 Arial;}}
+{\colortbl ;\red255\green255\blue255 ;\red0\green0\blue0 ;}
+{\stylesheet{\f0\fs24 Normal;}{\cs1 Default Paragraph Font;}}
+{\*\revtbl{Unknown;}}
+\paperw12240\paperh15840\margl0\margr0\margt0\margb0\headery720\footery720\nogrowautofit\deftab720\formshade\nofeaturethrottle1\dntblnsbdb\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot 
+\sectd\pgwsxn12240\pghsxn15840\guttersxn0\marglsxn0\margrsxn0\margtsxn0\margbsxn0\headery720\footery720\sbkpage\pgncont\pgndec 
+\plain\plain\f0\fs24\ql\plain\f0\fs24 Categoryname: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5000{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname CATEGORYNAME}}}{\fldrslt \{CATEGORYNAME\}}}\plain\f0\fs24\par 
+Productname: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5001{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname PRODUCTNAME}}}{\fldrslt \{PRODUCTNAME\}}}\plain\f0\fs24\ql\par 
+Quantityperunit: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5002{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname QUANTITYPERUNIT}}}{\fldrslt \{QUANTITYPERUNIT\}}}\plain\f0\fs24\ql\par 
+Unitsinstock: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5003{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname UNITSINSTOCK}}}{\fldrslt \{UNITSINSTOCK\}}}\plain\f0\fs24\ql\par 
+Discontinued: \plain\f1\fs24\lang1033\hich\f1\dbch\f1\loch\f1\cf2\fs24\sscharaux5004{\field{\*\fldinst{FORMTEXT}{\*\formfield\fftype0{\*\ffname DISCONTINUED}}}{\fldrslt \{DISCONTINUED\}}}\plain\f0\fs24\ql\par 
+\plain\f0\fs24}
+")
+header(text="{\rtf1\sstecf24000\ansi\deflang1033\ftnbj\uc1\deff0 
+{\fonttbl{\f0 \fswiss Arial;}}
+{\colortbl ;\red255\green255\blue255 ;\red0\green0\blue0 ;}
+{\stylesheet{\f0\fs24 Normal;}{\cs1 Default Paragraph Font;}}
+{\*\revtbl{Unknown;}}
+\paperw12240\paperh15840\margl0\margr0\margt0\margb0\headery720\footery720\nogrowautofit\deftab720\formshade\nofeaturethrottle1\dntblnsbdb\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot 
+\sectd\pgwsxn12240\pghsxn15840\guttersxn0\marglsxn0\margrsxn0\margtsxn0\margbsxn0\headery720\footery720\sbkpage\pgncont\pgndec 
+\plain\plain\f0\fs24\ql}
+")
+footer(text="{\rtf1\sstecf24000\ansi\deflang1033\ftnbj\uc1\deff0 
+{\fonttbl{\f0 \fswiss Arial;}}
+{\colortbl ;\red255\green255\blue255 ;\red0\green0\blue0 ;}
+{\stylesheet{\f0\fs24 Normal;}{\cs1 Default Paragraph Font;}}
+{\*\revtbl{Unknown;}}
+\paperw12240\paperh15840\margl0\margr0\margt0\margb0\headery720\footery720\nogrowautofit\deftab720\formshade\nofeaturethrottle1\dntblnsbdb\fet4\aendnotes\aftnnrlc\pgbrdrhead\pgbrdrfoot 
+\sectd\pgwsxn12240\pghsxn15840\guttersxn0\marglsxn0\margrsxn0\margtsxn0\margbsxn0\headery720\footery720\sbkpage\pgncont\pgndec 
+\plain\plain\f0\fs24\ql}
+")table(column=(type=char(15) update=yes updatewhereclause=yes key=yes name=categoryname dbname="Products_by_Categories.CategoryName" )
+ column=(type=char(40) update=yes updatewhereclause=yes key=yes name=productname dbname="Products_by_Categories.ProductName" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=quantityperunit dbname="Products_by_Categories.QuantityPerUnit" )
+ column=(type=long update=yes updatewhereclause=yes name=unitsinstock dbname="Products_by_Categories.UnitsInStock" )
+ column=(type=char(5) update=yes updatewhereclause=yes key=yes name=discontinued dbname="Products_by_Categories.Discontinued" )
+ retrieve="PBSELECT( VERSION(400) TABLE(NAME=~"Products_by_Categories~" ) COLUMN(NAME=~"Products_by_Categories.CategoryName~") COLUMN(NAME=~"Products_by_Categories.ProductName~") COLUMN(NAME=~"Products_by_Categories.QuantityPerUnit~") COLUMN(NAME=~"Products_by_Categories.UnitsInStock~") COLUMN(NAME=~"Products_by_Categories.Discontinued~")) " update="Products_by_Categories" updatewhere=1 updatekeyinplace=no )
+column(name=categoryname id=1 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=productname id=2 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=quantityperunit id=3 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=unitsinstock id=4 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+column(name=discontinued id=5 visible="1" lineremove=no multiline=no width.autosize=yes width="0" alignment="0" tabsequence=1 format="[general]" )
+htmltable(border="1" cellpadding="0" cellspacing="0" generatecss="no" nowrap="yes")
+export.xml(headgroups="1" includewhitespace="0" metadatatype=0 savemetadata=0 )
+import.xml()

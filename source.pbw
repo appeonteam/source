@@ -9,5 +9,5 @@ Save Format v3.0(19990112)
  6 "InkDemo\\Ink_Demo.pbt";
  7 "Simulate\\simulate.pbt";
 @end;
-DefaultTarget "Simulate\\simulate.pbt";
-DefaultRemoteTarget "Simulate\\simulate.pbt";
+DefaultTarget "dw2xls_test.pbt";
+DefaultRemoteTarget "dw2xls_test.pbt";

@@ -1,0 +1,10 @@
+﻿$PBExportHeader$str_test.srs
+global type str_test from structure
+	longptr		id
+	restclient		aa
+	httpclient		bb
+	jsongenerator		cc
+	jsonparser		dd
+	longlong		ee
+end type
+

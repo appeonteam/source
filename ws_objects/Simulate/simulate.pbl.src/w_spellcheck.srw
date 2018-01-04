@@ -133,8 +133,8 @@ end on
 type pb_spellcheck from picturebutton within w_spellcheck
 integer x = 3003
 integer y = 56
-integer width = 101
-integer height = 88
+integer width = 110
+integer height = 96
 integer taborder = 20
 integer textsize = -8
 integer weight = 400
