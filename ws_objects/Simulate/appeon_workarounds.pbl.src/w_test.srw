@@ -98,7 +98,7 @@ event clicked;window child
 int li_rtn
 string ls_id
 ls_id = '2016/11/05'
-li_rtn = OpenSheetAsDocument(w_sheet, w_mdi, ls_id)
+//li_rtn = OpenSheetAsDocument(w_sheet, w_mdi, ls_id)
 messagebox('',li_rtn)
 end event
 
