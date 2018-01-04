@@ -8,6 +8,7 @@
  "d_ole.srd" "simulate.pbl";
  "d_richtext.srd" "simulate.pbl";
  "d_webservice.srd" "simulate.pbl";
+ "f_dw_to_excel.srf" "simulate.pbl";
  "gf_simulate_configure_sync.srf" "simulate.pbl";
  "gf_simulate_sync.srf" "simulate.pbl";
  "m_frame.srm" "simulate.pbl";
