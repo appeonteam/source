@@ -1,0 +1,203 @@
+﻿$PBExportHeader$m_yyq.srm
+forward
+global type m_yyq from m_frame
+end type
+type m_restclient from menu within m_window
+end type
+type m_window from m_frame`m_window within m_yyq
+m_restclient m_restclient
+end type
+end forward
+
+global type m_yyq from m_frame
+end type
+global m_yyq m_yyq
+
+on m_yyq.create
+m_yyq=this
+call super::create
+end on
+
+on m_yyq.destroy
+call super::destroy
+end on
+
+type m_file from m_frame`m_file within m_yyq
+end type
+
+on m_file.create
+call super::create
+end on
+
+on m_file.destroy
+call super::destroy
+end on
+
+type m_spellcheck from m_frame`m_spellcheck within m_file
+end type
+
+on m_spellcheck.create
+call super::create
+end on
+
+on m_spellcheck.destroy
+call super::destroy
+end on
+
+type m_0 from m_frame`m_0 within m_file
+end type
+
+on m_0.create
+call super::create
+end on
+
+on m_0.destroy
+call super::destroy
+end on
+
+type m_exit from m_frame`m_exit within m_file
+end type
+
+on m_exit.create
+call super::create
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+type m_edit from m_frame`m_edit within m_yyq
+end type
+
+on m_edit.create
+call super::create
+end on
+
+on m_edit.destroy
+call super::destroy
+end on
+
+type m_cut from m_frame`m_cut within m_edit
+end type
+
+on m_cut.create
+call super::create
+end on
+
+on m_cut.destroy
+call super::destroy
+end on
+
+type m_copy from m_frame`m_copy within m_edit
+end type
+
+on m_copy.create
+call super::create
+end on
+
+on m_copy.destroy
+call super::destroy
+end on
+
+type m_paste from m_frame`m_paste within m_edit
+end type
+
+on m_paste.create
+call super::create
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+type m_delete from m_frame`m_delete within m_edit
+end type
+
+on m_delete.create
+call super::create
+end on
+
+on m_delete.destroy
+call super::destroy
+end on
+
+type m_window from m_frame`m_window within m_yyq
+m_restclient m_restclient
+end type
+
+on m_window.create
+call super::create
+this.m_restclient=create m_restclient
+this.Item[UpperBound(this.Item)+1]=this.m_restclient
+end on
+
+on m_window.destroy
+call super::destroy
+destroy(this.m_restclient)
+end on
+
+type m_closeall from m_frame`m_closeall within m_window
+end type
+
+on m_closeall.create
+call super::create
+end on
+
+on m_closeall.destroy
+call super::destroy
+end on
+
+type m_help from m_frame`m_help within m_yyq
+end type
+
+on m_help.create
+call super::create
+end on
+
+on m_help.destroy
+call super::destroy
+end on
+
+type m_about from m_frame`m_about within m_help
+end type
+
+on m_about.create
+call super::create
+end on
+
+on m_about.destroy
+call super::destroy
+end on
+
+type m_restclient from menu within m_window
+end type
+
+event clicked;str_test  lstr_a
+
+opensheetwithparm(w_yyq, lstr_a,  w_frame)
+end event
+
+on m_restclient.create
+call super::create
+this.text = "RestClient"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_restclient.destroy
+call super::destroy
+end on
+

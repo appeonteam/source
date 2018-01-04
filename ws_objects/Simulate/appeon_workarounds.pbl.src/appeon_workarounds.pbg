@@ -7,6 +7,7 @@
  "d_rowflag.srd" "appeon_workarounds.pbl";
  "d_rowinfo.srd" "appeon_workarounds.pbl";
  "d_rowstate.srd" "appeon_workarounds.pbl";
+ "dw_syntax_cond.srd" "appeon_workarounds.pbl";
  "appeongetappeonusername.srf" "appeon_workarounds.pbl";
  "appeongetbrowserversion.srf" "appeon_workarounds.pbl";
  "appeongetcachedir.srf" "appeon_workarounds.pbl";
@@ -47,4 +48,9 @@
  "ejbobject.sru" "appeon_workarounds.pbl";
  "ejbserial.sru" "appeon_workarounds.pbl";
  "parse_retval_object.sru" "appeon_workarounds.pbl";
+ "w_image_sample.srw" "appeon_workarounds.pbl";
+ "w_main_syntax.srw" "appeon_workarounds.pbl";
+ "w_nosyntax_sample.srw" "appeon_workarounds.pbl";
+ "w_syntax_sample.srw" "appeon_workarounds.pbl";
+ "w_test.srw" "appeon_workarounds.pbl";
 @end;
