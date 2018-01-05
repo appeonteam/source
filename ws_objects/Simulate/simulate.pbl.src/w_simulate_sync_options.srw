@@ -319,7 +319,7 @@ string facename = "Arial"
 string text = "Cancel"
 end type
 
-event clicked;//  returncode 100 indicates that the user hit CANCEL
+event clicked;//--  returncode 100 indicates that the user hit CANCEL
 ib_SaveSub    = FALSE
 ib_SaveServer = FALSE
 ib_SaveRun    = FALSE
