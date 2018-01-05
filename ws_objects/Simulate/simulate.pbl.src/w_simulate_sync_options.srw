@@ -175,6 +175,7 @@ SyncParm	i_parms
 
 httpclient ihtc
 end variables
+
 forward prototypes
 public function long wf_trysaving ()
 public function long wf_savesettings (ref string as_errmsg)
