@@ -305,7 +305,7 @@ event close;wf_trysaving()
 end event
 
 type cb_cancel from commandbutton within w_simulate_sync_options
-integer x = 1390
+integer x = 1266
 integer y = 1184
 integer width = 329
 integer height = 96
