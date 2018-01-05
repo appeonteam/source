@@ -195,6 +195,7 @@ string text = "dw2xls"
 end type
 
 event clicked;uf_dw_as_excel(dw_1, "d:\test.xls")
+//111
 end event
 
 type dw_1 from datawindow within w_main
