@@ -174,6 +174,7 @@ SyncParm	i_parms
 
 
 httpclient ihtc
+
 end variables
 
 forward prototypes
@@ -304,7 +305,7 @@ event close;wf_trysaving()
 end event
 
 type cb_cancel from commandbutton within w_simulate_sync_options
-integer x = 1390
+integer x = 1266
 integer y = 1184
 integer width = 329
 integer height = 96
@@ -318,7 +319,7 @@ string facename = "Arial"
 string text = "Cancel"
 end type
 
-event clicked;//  returncode 100 indicates that the user hit CANCEL
+event clicked;//--  returncode 100 indicates that the user hit CANCEL
 ib_SaveSub    = FALSE
 ib_SaveServer = FALSE
 ib_SaveRun    = FALSE
