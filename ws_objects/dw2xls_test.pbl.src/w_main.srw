@@ -55,7 +55,7 @@ destroy(this.cb_1)
 destroy(this.dw_1)
 end on
 
-event open;//123
+event open;//123 456
 end event
 
 type cb_4 from commandbutton within w_main
