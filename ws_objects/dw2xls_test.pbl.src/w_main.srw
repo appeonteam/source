@@ -56,7 +56,7 @@ destroy(this.dw_1)
 end on
 
 
-event open;//123 456 789 好不好好不好 你好你好你好
+event open;//123 456 789 好不好好不好 你好你好你好 吞吞吐吐
 
 end event
 
