@@ -55,7 +55,9 @@ destroy(this.cb_1)
 destroy(this.dw_1)
 end on
 
-event open;//123 456 789 好不好好不好
+
+event open;//123 456 789 好不好好不好 你好你好你好
+
 end event
 
 type cb_4 from commandbutton within w_main
